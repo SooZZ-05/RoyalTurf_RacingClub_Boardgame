@@ -1,0 +1,64 @@
+{
+  "generator": "built-in image_gen",
+  "purpose": "Separate scene backgrounds from seven independently movable themed horse figurines.",
+  "atlas": {
+    "width": 1536,
+    "height": 1024,
+    "columns": 4,
+    "rows": 2,
+    "order": [
+      "white",
+      "black",
+      "pink",
+      "blue",
+      "yellow",
+      "green",
+      "orange",
+      "empty"
+    ]
+  },
+  "assets": [
+    {
+      "theme": "royal-club",
+      "kind": "empty",
+      "prompt": "Use case: precise-object-edit. Edit THIS EXACT existing luxury game board image, 1536x1024. Remove ONLY the seven horse figurines together with their seven circular bases and their cast shadows from the lower portion of the racing lane. Reconstruct the pale ivory racing lane material and its fine inner gold/blue/platinum rails cleanly behind where the horses were. The lane should be a continuous completely EMPTY oval: no horses, no bases, no markers, no shadows, no text, no cell divisions. ABSOLUTELY PRESERVE exact camera, framing, canvas1536x1024, board position, scale, contours, all materials/colors, podium, empty payout panel, landscaping, all seven bottom card/chip wells and decorative frame/floor. Do not modify anything outside the tiny removed-horse region. This is an object-removal cleanup to allow real independently movable figurines to be rendered on top.",
+      "reference": "royal-club-clockwise.png",
+      "file": "royal-club-empty-board.png"
+    },
+    {
+      "theme": "royal-club",
+      "kind": "sprites",
+      "prompt": "Use case: compositing / background-extraction. Reference image: the supplied royal-club luxury board. Create ONLY its SEVEN matching equestrian horse game-piece figurines, INCLUDING each circular pedestal/base, as a precisely arranged TRANSPARENT PNG SPRITE ATLAS. Actual transparent alpha, no board, no floor, no checkerboard pattern, no contact shadow outside bases, no text, no labels, no outlines around the atlas. Canvas EXACT1536x1024. Layout EXACT4 columns by2 rows; each invisible cell384x512. Row1 left to right: WHITE, BLACK, PINK, BLUE horses. Row2 left to right: YELLOW, GREEN, ORANGE horses; bottom-right eighthcell completelyemptytransparent. EXACTLY seven horses, one per occupiedcell, none touching or overlapping cell edges. Each entire figurine and its base fits within340px wide by290px tall, centered horizontally at cell x=192, with BOTTOM of circular base at y=425 within its cell; generous transparent top/bottom margins are intentional. All seven identically scaled and aligned. All noses point LEFT, tails RIGHT. Render in the SAME above-and-front view as horses on referenceboard; sculpted THREE-DIMENSIONAL luxury physical pieces with fully modeled anatomy, mane, reins, saddle where present, precisely matching reference theme materials and round bases. Glazed enamel horses, intricate bronze tack, polished black/brass bases. Studio light from upper left, realistic reflective highlights, highclass collectible craftsmanship. Preserve horse identity and color, avoid flat clipart/cartoon. Transparent background is essential. Strict4x2spritegrid, exactly7pieces, lastcellblank.",
+      "reference": "royal-club-clockwise.png",
+      "file": "horse-sprites-royal-club.png"
+    },
+    {
+      "theme": "imperial-porcelain",
+      "kind": "empty",
+      "prompt": "Use case: precise-object-edit. Edit THIS EXACT existing luxury game board image, 1536x1024. Remove ONLY the seven horse figurines together with their seven circular bases and their cast shadows from the lower portion of the racing lane. Reconstruct the pale ivory racing lane material and its fine inner gold/blue/platinum rails cleanly behind where the horses were. The lane should be a continuous completely EMPTY oval: no horses, no bases, no markers, no shadows, no text, no cell divisions. ABSOLUTELY PRESERVE exact camera, framing, canvas1536x1024, board position, scale, contours, all materials/colors, podium, empty payout panel, landscaping, all seven bottom card/chip wells and decorative frame/floor. Do not modify anything outside the tiny removed-horse region. This is an object-removal cleanup to allow real independently movable figurines to be rendered on top.",
+      "reference": "imperial-porcelain-clockwise.png",
+      "file": "imperial-porcelain-empty-board.png"
+    },
+    {
+      "theme": "imperial-porcelain",
+      "kind": "sprites",
+      "prompt": "Use case: compositing / background-extraction. Reference image: the supplied imperial-porcelain luxury board. Create ONLY its SEVEN matching equestrian horse game-piece figurines, INCLUDING each circular pedestal/base, as a precisely arranged TRANSPARENT PNG SPRITE ATLAS. Actual transparent alpha, no board, no floor, no checkerboard pattern, no contact shadow outside bases, no text, no labels, no outlines around the atlas. Canvas EXACT1536x1024. Layout EXACT4 columns by2 rows; each invisible cell384x512. Row1 left to right: WHITE, BLACK, PINK, BLUE horses. Row2 left to right: YELLOW, GREEN, ORANGE horses; bottom-right eighthcell completelyemptytransparent. EXACTLY seven horses, one per occupiedcell, none touching or overlapping cell edges. Each entire figurine and its base fits within340px wide by290px tall, centered horizontally at cell x=192, with BOTTOM of circular base at y=425 within its cell; generous transparent top/bottom margins are intentional. All seven identically scaled and aligned. All noses point LEFT, tails RIGHT. Render in the SAME above-and-front view as horses on referenceboard; sculpted THREE-DIMENSIONAL luxury physical pieces with fully modeled anatomy, mane, reins, saddle where present, precisely matching reference theme materials and round bases. Smooth refined glazed porcelain figures and ivory glazed round plinths with champagne trim, matching each individual horse color. Studio light from upper left, realistic reflective highlights, highclass collectible craftsmanship. Preserve horse identity and color, avoid flat clipart/cartoon. Transparent background is essential. Strict4x2spritegrid, exactly7pieces, lastcellblank.",
+      "reference": "imperial-porcelain-clockwise.png",
+      "file": "horse-sprites-imperial-porcelain.png"
+    },
+    {
+      "theme": "nocturne",
+      "kind": "empty",
+      "prompt": "Use case: precise-object-edit. Edit THIS EXACT existing luxury game board image, 1536x1024. Remove ONLY the seven horse figurines together with their seven circular bases and their cast shadows from the lower portion of the racing lane. Reconstruct the pale ivory racing lane material and its fine inner gold/blue/platinum rails cleanly behind where the horses were. The lane should be a continuous completely EMPTY oval: no horses, no bases, no markers, no shadows, no text, no cell divisions. ABSOLUTELY PRESERVE exact camera, framing, canvas1536x1024, board position, scale, contours, all materials/colors, podium, empty payout panel, landscaping, all seven bottom card/chip wells and decorative frame/floor. Do not modify anything outside the tiny removed-horse region. This is an object-removal cleanup to allow real independently movable figurines to be rendered on top.",
+      "reference": "nocturne-track-base.png",
+      "file": "nocturne-empty-board.png"
+    },
+    {
+      "theme": "nocturne",
+      "kind": "sprites",
+      "prompt": "Use case: compositing / background-extraction. Reference image: the supplied nocturne luxury board. Create ONLY its SEVEN matching equestrian horse game-piece figurines, INCLUDING each circular pedestal/base, as a precisely arranged TRANSPARENT PNG SPRITE ATLAS. Actual transparent alpha, no board, no floor, no checkerboard pattern, no contact shadow outside bases, no text, no labels, no outlines around the atlas. Canvas EXACT1536x1024. Layout EXACT4 columns by2 rows; each invisible cell384x512. Row1 left to right: WHITE, BLACK, PINK, BLUE horses. Row2 left to right: YELLOW, GREEN, ORANGE horses; bottom-right eighthcell completelyemptytransparent. EXACTLY seven horses, one per occupiedcell, none touching or overlapping cell edges. Each entire figurine and its base fits within340px wide by290px tall, centered horizontally at cell x=192, with BOTTOM of circular base at y=425 within its cell; generous transparent top/bottom margins are intentional. All seven identically scaled and aligned. All noses point LEFT, tails RIGHT. Render in the SAME above-and-front view as horses on referenceboard; sculpted THREE-DIMENSIONAL luxury physical pieces with fully modeled anatomy, mane, reins, saddle where present, precisely matching reference theme materials and round bases. Angular sculpted faceted jewel-color horses, polished black circular bases with fine metallic rims. Studio light from upper left, realistic reflective highlights, highclass collectible craftsmanship. Preserve horse identity and color, avoid flat clipart/cartoon. Transparent background is essential. Strict4x2spritegrid, exactly7pieces, lastcellblank.",
+      "reference": "nocturne-track-base.png",
+      "file": "horse-sprites-nocturne.png"
+    }
+  ]
+}

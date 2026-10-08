@@ -1,0 +1,188 @@
+/* The same six-faced die travels from the board to a readable shared result. */
+.dice-reveal {
+  --reveal-duration: 2700ms;
+  --reveal-die-size: min(200px, 36vw);
+  --reveal-ink: #f2e4c8;
+  --reveal-muted: #d1bea0;
+  --reveal-scrim: #10201891;
+  position: fixed;
+  inset: 0;
+  z-index: 12;
+  pointer-events: none;
+  display: grid;
+  place-items: center;
+  color: var(--reveal-ink);
+}
+.dice-reveal[hidden] { display: none !important; }
+.reveal-source-hidden .dice,
+.reveal-source-hidden .die-shadow { visibility: hidden; }
+.dice-reveal-scrim {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 48%, #08100c26 15%, #0a100a05 70%), var(--reveal-scrim);
+  backdrop-filter: blur(3px);
+  opacity: 0;
+}
+.dice-reveal-content {
+  position: relative;
+  width: 100%;
+  padding: 30px 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 43px;
+}
+.reveal-die-stage {
+  --die: var(--reveal-die-size);
+  --half: calc(var(--die) / 2);
+  width: var(--die);
+  height: var(--die);
+  position: relative;
+  perspective: 1100px;
+  perspective-origin: 50% 50%;
+}
+.reveal-die-stage::after {
+  content: '';
+  position: absolute;
+  left: 3%;
+  right: 3%;
+  bottom: -28px;
+  height: 18px;
+  border-radius: 50%;
+  background: #03080566;
+  filter: blur(13px);
+  opacity: 0;
+}
+.reveal-flying-die,
+.reveal-cube {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+}
+.reveal-flying-die {
+  transform: translate3d(var(--reveal-from-x, 0px), var(--reveal-from-y, 0px), 0) scale(var(--reveal-from-scale, .2));
+}
+.reveal-cube {
+  transform: rotateX(var(--reveal-start-x, -18deg)) rotateY(var(--reveal-start-y, 28deg));
+}
+.reveal-cube .die-face {
+  border-width: 2px;
+  border-radius: 11px;
+  box-shadow: inset 0 0 0 1px #ead7a46b, inset 0 0 28px #0002;
+  backface-visibility: hidden;
+}
+.reveal-copy {
+  text-align: center;
+  opacity: 0;
+  text-shadow: 0 2px 20px #07110988;
+}
+.reveal-eyebrow {
+  display: block;
+  font: 500 11px var(--serif);
+  letter-spacing: 4px;
+  color: var(--reveal-muted);
+}
+.reveal-copy h2 {
+  font: 500 clamp(29px, 3.4vw, 40px) var(--serif);
+  letter-spacing: 7px;
+  margin: 13px 0 7px;
+  padding-left: 7px;
+  line-height: 1.2;
+}
+.reveal-copy p {
+  margin: 0;
+  font: 500 15px var(--roman);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--reveal-muted);
+}
+.reveal-next {
+  display: block;
+  margin-top: 22px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--reveal-muted);
+}
+.dice-reveal.is-active .dice-reveal-scrim {
+  animation: reveal-scrim var(--reveal-duration) linear both;
+}
+.dice-reveal.is-active .reveal-flying-die {
+  animation: reveal-flight var(--reveal-duration) cubic-bezier(.22, .7, .2, 1) both;
+}
+.dice-reveal.is-active .reveal-cube {
+  animation: reveal-face var(--reveal-duration) cubic-bezier(.22, .7, .2, 1) both;
+}
+.dice-reveal.is-active .reveal-copy,
+.dice-reveal.is-active .reveal-die-stage::after {
+  animation: reveal-copy var(--reveal-duration) linear both;
+}
+body[data-theme='imperial-porcelain'] .dice-reveal {
+  --reveal-scrim: #15273591;
+  --reveal-ink: #fff9ec;
+  --reveal-muted: #eee3cf;
+}
+body[data-theme='nocturne'] .dice-reveal {
+  --reveal-scrim: #09090d8c;
+  --reveal-ink: #f5e8ce;
+  --reveal-muted: #d7c6aa;
+}
+@keyframes reveal-flight {
+  0%, 100% {
+    transform: translate3d(var(--reveal-from-x, 0px), var(--reveal-from-y, 0px), 0) scale(var(--reveal-from-scale, .2));
+  }
+  24%, 83% { transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes reveal-face {
+  0%, 100% {
+    transform: rotateX(var(--reveal-start-x, -18deg)) rotateY(var(--reveal-start-y, 28deg));
+  }
+  24%, 83% {
+    transform: rotateX(var(--reveal-face-x, 0deg)) rotateY(var(--reveal-face-y, 0deg));
+  }
+}
+@keyframes reveal-scrim {
+  0%, 100% { opacity: 0; }
+  20%, 83% { opacity: 1; }
+}
+@keyframes reveal-copy {
+  0%, 19%, 91%, 100% { opacity: 0; }
+  28%, 78% { opacity: 1; }
+}
+@keyframes reveal-still {
+  0%, 100% { opacity: 0; }
+  9%, 88% { opacity: 1; }
+}
+@media (max-width: 700px) {
+  .dice-reveal-content { padding-top: 65px; gap: 35px; }
+  .reveal-eyebrow { font-size: 10px; letter-spacing: 3px; }
+  .reveal-copy h2 { margin-top: 12px; }
+  .reveal-copy p { font-size: 13px; }
+  .reveal-next { font-size: 9px; margin-top: 20px; }
+  .reveal-cube .die-face { border-radius: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  /* Keep the result readable for the normal hold, without travel or rotation. */
+  .dice-reveal.is-active .reveal-flying-die {
+    transform: none;
+    animation: reveal-still var(--reveal-duration) linear both !important;
+    animation-duration: var(--reveal-duration) !important;
+  }
+  .dice-reveal.is-active .reveal-cube {
+    transform: rotateX(var(--reveal-face-x, 0deg)) rotateY(var(--reveal-face-y, 0deg));
+    animation: none !important;
+  }
+  .dice-reveal.is-active .dice-reveal-scrim,
+  .dice-reveal.is-active .reveal-copy,
+  .dice-reveal.is-active .reveal-die-stage::after {
+    animation: reveal-still var(--reveal-duration) linear both !important;
+    animation-duration: var(--reveal-duration) !important;
+  }
+  .dice-reveal-scrim { backdrop-filter: none; }
+}
+/* Reduced-motion shorthand declarations must also respect the host's pause. */
+body.paused .dice-reveal.is-active *,
+body.paused .dice-reveal.is-active *::after {
+  animation-play-state: paused !important;
+}

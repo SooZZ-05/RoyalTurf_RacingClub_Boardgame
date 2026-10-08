@@ -1,0 +1,117 @@
+/* A readable engraving in the reference board's existing prize-table recess. */
+.payout-plate {
+  --payout-ground: #123d2c;
+  --payout-ink: #ecdbb9;
+  --payout-line: #c0a16b73;
+  position: absolute;
+  z-index: 4;
+  left: 20.2%;
+  top: 30.25%;
+  width: 22.7%;
+  height: 14.5%;
+  padding: .7cqw .65cqw .5cqw;
+  color: var(--payout-ink);
+  background: linear-gradient(125deg, #ffffff04, #0000000a), var(--payout-ground);
+  border: .12cqw solid var(--metal);
+  box-shadow: inset 0 0 0 .22cqw var(--payout-ground), inset 0 0 0 .27cqw var(--payout-line), 0 .15cqw .3cqw #0003;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.payout-plate-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 .15cqw .4cqw;
+  font-size: .92cqw;
+  letter-spacing: .12cqw;
+  line-height: 1.1;
+}
+.payout-plate-title > span:last-child { font: 1cqw var(--roman); opacity: .65; }
+.payout-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-variant-numeric: lining-nums tabular-nums;
+  text-align: center;
+  flex: 1;
+}
+.payout-table th, .payout-table td {
+  border-bottom: .055cqw solid var(--payout-line);
+  border-right: .055cqw solid var(--payout-line);
+  padding: .16cqw .08cqw;
+  font: 600 1.1cqw Georgia, serif;
+  line-height: 1.1;
+}
+.payout-table thead th { font-size: .9cqw; color: inherit; }
+.payout-table th:first-child { width: 24%; font: 500 .72cqw var(--serif); letter-spacing: .01cqw; }
+.payout-table th:last-child, .payout-table td:last-child { border-right: 0; }
+.payout-table tbody tr:last-child > * { border-bottom: 0; }
+.payout-expand { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; border-radius: 0; padding: 0; background: transparent; }
+.payout-expand:hover { background: #ffffff08; }
+.payout-expand:focus-visible { outline: 2px solid var(--payout-ink); outline-offset: 3px; }
+.payout-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+body[data-theme='imperial-porcelain'] .payout-plate {
+  --payout-ground: #ece4d4;
+  --payout-ink: #18354c;
+  --payout-line: #9a825177;
+  left: 25.25%;
+  top: 37.65%;
+  width: 22.2%;
+  height: 14.5%;
+  border-radius: .15cqw;
+  background: linear-gradient(125deg, #ffffff55, transparent), var(--payout-ground);
+}
+body[data-theme='nocturne'] .payout-plate {
+  --payout-ground: #1b1c1d;
+  --payout-ink: #e8dcc3;
+  --payout-line: #b8a68166;
+  left: 22.05%;
+  top: 34.25%;
+  width: 22.6%;
+  height: 14.2%;
+}
+.payout-dialog {
+  width: min(590px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  overflow: auto;
+  padding: 34px;
+  border: 1px solid var(--metal);
+  border-radius: 9px;
+  background: var(--panel);
+  color: var(--ink);
+  box-shadow: 0 25px 100px #0005;
+}
+.payout-dialog::backdrop { background: #101510a8; backdrop-filter: blur(5px); }
+.payout-dialog .dialog-close { width: 36px; height: 36px; display: grid; place-items: center; padding: 0; }
+.payout-dialog h2 { margin: 12px 0; font-size: 25px; font-weight: 500; letter-spacing: 2px; }
+.payout-intro { margin: 0 0 22px; max-width: 420px; font-size: 12px; line-height: 1.9; color: var(--muted); }
+.payout-table-detail { --payout-line: var(--line); margin-bottom: 22px; border: 1px solid var(--metal); }
+.payout-table-detail th, .payout-table-detail td { padding: 12px 4px; font-size: 19px; line-height: 1.25; border-width: 1px; }
+.payout-table-detail thead th { font-size: 14px; background: color-mix(in srgb,var(--metal),transparent 90%); }
+.payout-table-detail th:first-child { width: 27%; font: 500 12px var(--serif); letter-spacing: 0; }
+.payout-formula { padding: 16px 0; display: flex; align-items: center; gap: 20px; border-block: 1px solid var(--line); }
+.payout-formula > span { font-size: 10px; color: var(--muted); white-space: nowrap; }
+.payout-formula strong { font-size: 14px; font-weight: 500; }
+.payout-formula i { font-style: normal; color: var(--metal); margin: 0 9px; }
+.payout-example { font-size: 12px; line-height: 1.9; margin: 17px 0 14px; }
+.payout-notes { margin: 0; padding-left: 17px; color: var(--muted); font-size: 10px; line-height: 1.95; }
+.payout-notes li + li { margin-top: 6px; }
+.payout-source { display: inline-block; margin-top: 20px; padding-bottom: 3px; color: var(--ink); border-bottom: 1px solid var(--metal); font-size: 10px; text-decoration: none; }
+@media (max-width:700px) {
+  .payout-plate { min-height: 40px; padding: .7cqw .65cqw .5cqw; }
+  .payout-plate-title { font-size: 1.22cqw; padding-bottom: .5cqw; }
+  .payout-table th, .payout-table td { font-size: 1.3cqw; }
+  .payout-table thead th { font-size: 1.1cqw; }
+  .payout-table th:first-child { font-size: .88cqw; }
+  .payout-dialog { padding: 30px 20px 24px; }
+  .payout-dialog h2 { font-size: 22px; }
+  .payout-intro { margin-bottom: 17px; font-size: 11px; }
+  .payout-table-detail th, .payout-table-detail td { padding: 10px 2px; font-size: 15px; }
+  .payout-table-detail thead th { font-size: 12px; }
+  .payout-table-detail th:first-child { font-size: 9px; }
+  .payout-formula { gap: 10px; }
+  .payout-formula strong { font-size: 12px; }
+  .payout-formula i { margin: 0 4px; }
+  .payout-example { font-size: 11px; }
+}

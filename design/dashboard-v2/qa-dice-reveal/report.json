@@ -1,0 +1,1705 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "viewport": "user",
+      "theme": "royal-club",
+      "records": [
+        {
+          "symbol": "cap",
+          "name": "騎師帽",
+          "revealDuration": 2720,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 413.34375,
+              "y": 533.5625,
+              "right": 539.640625,
+              "bottom": 663.4375,
+              "width": 126.296875,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "cap",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 34.5%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "60.2% 34.5%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 58%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              }
+            ],
+            "front": {
+              "symbol": "cap",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+              "position": "74.5% 34.5%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "carrot",
+          "name": "紅蘿蔔",
+          "revealDuration": 2728,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 413.90625,
+              "y": 533.5625,
+              "right": 539.078125,
+              "bottom": 663.4375,
+              "width": 125.171875,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "carrot",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "60.2% 34.5%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 34.5%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 58%"
+              }
+            ],
+            "front": {
+              "symbol": "carrot",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+              "position": "60.2% 34.5%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "head",
+          "name": "馬頭",
+          "revealDuration": 2759,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 410.21875,
+              "y": 533.5625,
+              "right": 542.78125,
+              "bottom": 663.4375,
+              "width": 132.5625,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "head",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 34.5%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "60.2% 34.5%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 58%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              }
+            ],
+            "front": {
+              "symbol": "head",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+              "position": "74.5% 10.7%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "shoe",
+          "name": "馬蹄鐵",
+          "revealDuration": 2735,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 413.90625,
+              "y": 533.5625,
+              "right": 539.078125,
+              "bottom": 663.4375,
+              "width": 125.171875,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "shoe",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 58%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 34.5%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "60.2% 34.5%"
+              }
+            ],
+            "front": {
+              "symbol": "shoe",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+              "position": "74.5% 58%"
+            },
+            "overflow": false
+          }
+        }
+      ]
+    },
+    {
+      "viewport": "user",
+      "theme": "imperial-porcelain",
+      "records": [
+        {
+          "symbol": "cap",
+          "name": "騎師帽",
+          "revealDuration": 2744,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 413.34375,
+              "y": 533.5625,
+              "right": 539.640625,
+              "bottom": 663.4375,
+              "width": 126.296875,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "cap",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "68.82% 35.09%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "94.71% 35.09%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.69% 75.47%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              }
+            ],
+            "front": {
+              "symbol": "cap",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+              "position": "68.82% 35.09%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "carrot",
+          "name": "紅蘿蔔",
+          "revealDuration": 2719,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 413.90625,
+              "y": 533.5625,
+              "right": 539.078125,
+              "bottom": 663.4375,
+              "width": 125.171875,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "carrot",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "94.71% 35.09%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "68.82% 35.09%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.69% 75.47%"
+              }
+            ],
+            "front": {
+              "symbol": "carrot",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+              "position": "94.71% 35.09%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "head",
+          "name": "馬頭",
+          "revealDuration": 2711,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 410.21875,
+              "y": 533.5625,
+              "right": 542.78125,
+              "bottom": 663.4375,
+              "width": 132.5625,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "head",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "68.82% 35.09%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "94.71% 35.09%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.69% 75.47%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              }
+            ],
+            "front": {
+              "symbol": "head",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+              "position": "81.62% 14.79%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "shoe",
+          "name": "馬蹄鐵",
+          "revealDuration": 2729,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 413.90625,
+              "y": 533.5625,
+              "right": 539.078125,
+              "bottom": 663.4375,
+              "width": 125.171875,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "shoe",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.69% 75.47%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "68.82% 35.09%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "94.71% 35.09%"
+              }
+            ],
+            "front": {
+              "symbol": "shoe",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+              "position": "81.69% 75.47%"
+            },
+            "overflow": false
+          }
+        }
+      ]
+    },
+    {
+      "viewport": "user",
+      "theme": "nocturne",
+      "records": [
+        {
+          "symbol": "cap",
+          "name": "騎師帽",
+          "revealDuration": 2732,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 413.34375,
+              "y": 533.5625,
+              "right": 539.640625,
+              "bottom": 663.4375,
+              "width": 126.296875,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "cap",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 29.51%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "63.23% 29.51%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 51.61%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              }
+            ],
+            "front": {
+              "symbol": "cap",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+              "position": "77.09% 29.51%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "carrot",
+          "name": "紅蘿蔔",
+          "revealDuration": 2727,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 413.90625,
+              "y": 533.5625,
+              "right": 539.078125,
+              "bottom": 663.4375,
+              "width": 125.171875,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "carrot",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "63.23% 29.51%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 29.51%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 51.61%"
+              }
+            ],
+            "front": {
+              "symbol": "carrot",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+              "position": "63.23% 29.51%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "head",
+          "name": "馬頭",
+          "revealDuration": 2712,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 410.21875,
+              "y": 533.5625,
+              "right": 542.78125,
+              "bottom": 663.4375,
+              "width": 132.5625,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "head",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 29.51%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "63.23% 29.51%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 51.61%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              }
+            ],
+            "front": {
+              "symbol": "head",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+              "position": "77.09% 7.53%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "shoe",
+          "name": "馬蹄鐵",
+          "revealDuration": 2732,
+          "geometry": {
+            "stage": {
+              "x": 376.5,
+              "y": 290.5625,
+              "right": 576.5,
+              "bottom": 490.5625,
+              "width": 200,
+              "height": 200
+            },
+            "copy": {
+              "x": 413.90625,
+              "y": 533.5625,
+              "right": 539.078125,
+              "bottom": 663.4375,
+              "width": 125.171875,
+              "height": 129.875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "shoe",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 51.61%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 29.51%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "63.23% 29.51%"
+              }
+            ],
+            "front": {
+              "symbol": "shoe",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+              "position": "77.09% 51.61%"
+            },
+            "overflow": false
+          }
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "theme": "royal-club",
+      "records": [
+        {
+          "symbol": "cap",
+          "name": "騎師帽",
+          "revealDuration": 2741,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 137.484375,
+              "y": 483.296875,
+              "right": 252.5,
+              "bottom": 601.09375,
+              "width": 115.015625,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "cap",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 34.5%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "60.2% 34.5%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 58%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              }
+            ],
+            "front": {
+              "symbol": "cap",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+              "position": "74.5% 34.5%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "carrot",
+          "name": "紅蘿蔔",
+          "revealDuration": 2745,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 137.484375,
+              "y": 483.296875,
+              "right": 252.5,
+              "bottom": 601.09375,
+              "width": 115.015625,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "carrot",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "60.2% 34.5%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 34.5%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 58%"
+              }
+            ],
+            "front": {
+              "symbol": "carrot",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+              "position": "60.2% 34.5%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "head",
+          "name": "馬頭",
+          "revealDuration": 2726,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 134.890625,
+              "y": 483.296875,
+              "right": 255.109375,
+              "bottom": 601.09375,
+              "width": 120.21875,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "head",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 34.5%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "60.2% 34.5%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 58%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              }
+            ],
+            "front": {
+              "symbol": "head",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+              "position": "74.5% 10.7%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "shoe",
+          "name": "馬蹄鐵",
+          "revealDuration": 2737,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 137.484375,
+              "y": 483.296875,
+              "right": 252.5,
+              "bottom": 601.09375,
+              "width": 115.015625,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "shoe",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 58%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 34.5%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "74.5% 10.7%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+                "position": "60.2% 34.5%"
+              }
+            ],
+            "front": {
+              "symbol": "shoe",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/a-dice.png\")",
+              "position": "74.5% 58%"
+            },
+            "overflow": false
+          }
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "theme": "nocturne",
+      "records": [
+        {
+          "symbol": "cap",
+          "name": "騎師帽",
+          "revealDuration": 2716,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 137.484375,
+              "y": 483.296875,
+              "right": 252.5,
+              "bottom": 601.09375,
+              "width": 115.015625,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "cap",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 29.51%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "63.23% 29.51%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 51.61%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              }
+            ],
+            "front": {
+              "symbol": "cap",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+              "position": "77.09% 29.51%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "carrot",
+          "name": "紅蘿蔔",
+          "revealDuration": 2718,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 137.484375,
+              "y": 483.296875,
+              "right": 252.5,
+              "bottom": 601.09375,
+              "width": 115.015625,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "carrot",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "63.23% 29.51%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 29.51%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 51.61%"
+              }
+            ],
+            "front": {
+              "symbol": "carrot",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+              "position": "63.23% 29.51%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "head",
+          "name": "馬頭",
+          "revealDuration": 2707,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 134.890625,
+              "y": 483.296875,
+              "right": 255.109375,
+              "bottom": 601.09375,
+              "width": 120.21875,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "head",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 29.51%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "63.23% 29.51%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 51.61%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              }
+            ],
+            "front": {
+              "symbol": "head",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+              "position": "77.09% 7.53%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "shoe",
+          "name": "馬蹄鐵",
+          "revealDuration": 2721,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 137.484375,
+              "y": 483.296875,
+              "right": 252.5,
+              "bottom": 601.09375,
+              "width": 115.015625,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "shoe",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 51.61%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 29.51%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "77.09% 7.53%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+                "position": "63.23% 29.51%"
+              }
+            ],
+            "front": {
+              "symbol": "shoe",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/c-dice.png\")",
+              "position": "77.09% 51.61%"
+            },
+            "overflow": false
+          }
+        }
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "theme": "imperial-porcelain",
+      "records": [
+        {
+          "symbol": "cap",
+          "name": "騎師帽",
+          "revealDuration": 2726,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 137.484375,
+              "y": 483.296875,
+              "right": 252.5,
+              "bottom": 601.09375,
+              "width": 115.015625,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "cap",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "68.82% 35.09%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "94.71% 35.09%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.69% 75.47%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              }
+            ],
+            "front": {
+              "symbol": "cap",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+              "position": "68.82% 35.09%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "carrot",
+          "name": "紅蘿蔔",
+          "revealDuration": 2707,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 137.484375,
+              "y": 483.296875,
+              "right": 252.5,
+              "bottom": 601.09375,
+              "width": 115.015625,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "carrot",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "94.71% 35.09%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "68.82% 35.09%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.69% 75.47%"
+              }
+            ],
+            "front": {
+              "symbol": "carrot",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+              "position": "94.71% 35.09%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "head",
+          "name": "馬頭",
+          "revealDuration": 2706,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 134.890625,
+              "y": 483.296875,
+              "right": 255.109375,
+              "bottom": 601.09375,
+              "width": 120.21875,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "head",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "68.82% 35.09%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "94.71% 35.09%"
+              },
+              {
+                "symbol": "shoe",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.69% 75.47%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              }
+            ],
+            "front": {
+              "symbol": "head",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+              "position": "81.62% 14.79%"
+            },
+            "overflow": false
+          }
+        },
+        {
+          "symbol": "shoe",
+          "name": "馬蹄鐵",
+          "revealDuration": 2710,
+          "geometry": {
+            "stage": {
+              "x": 124.796875,
+              "y": 307.90625,
+              "right": 265.1875,
+              "bottom": 448.296875,
+              "width": 140.390625,
+              "height": 140.390625
+            },
+            "copy": {
+              "x": 137.484375,
+              "y": 483.296875,
+              "right": 252.5,
+              "bottom": 601.09375,
+              "width": 115.015625,
+              "height": 117.796875
+            },
+            "copyOpacity": 1,
+            "faces": [
+              {
+                "symbol": "shoe",
+                "normalZ": 1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.69% 75.47%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "cap",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "68.82% 35.09%"
+              },
+              {
+                "symbol": "head",
+                "normalZ": 0,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "81.62% 14.79%"
+              },
+              {
+                "symbol": "carrot",
+                "normalZ": -1,
+                "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+                "position": "94.71% 35.09%"
+              }
+            ],
+            "front": {
+              "symbol": "shoe",
+              "normalZ": 1,
+              "background": "url(\"http://127.0.0.1:4180/design/royal-turf-concepts/b-dice.png\")",
+              "position": "81.69% 75.47%"
+            },
+            "overflow": false
+          }
+        }
+      ]
+    }
+  ],
+  "pauseFreezesReveal": true,
+  "reducedMotion": {
+    "cubeAnimation": "none",
+    "flight": "none",
+    "copyOpacity": 1,
+    "phase": "revealing"
+  },
+  "issues": []
+}

@@ -1,0 +1,276 @@
+{
+  "status": "partial-observation-not-a-playable-edition",
+  "article": "https://punchboardgame.pixnet.net/blog/posts/9573680628",
+  "board": {
+    "source": "https://pic.pimg.tw/punchboardgame/1692682299-1964584796-g_n.jpg",
+    "trackLength": 36,
+    "paceDistance": 18,
+    "finishBoundary": "Between display space 0/36 and space 1; forward finishDistance still requires the manual's lap convention",
+    "payout": [
+      [
+        500,
+        350,
+        250,
+        200,
+        150
+      ],
+      [
+        350,
+        250,
+        200,
+        150,
+        100
+      ],
+      [
+        250,
+        200,
+        150,
+        100,
+        100
+      ]
+    ],
+    "lastPenalty": 100,
+    "note": "Photographed Chinese payout: third place / three betting units = 150. The RulesPal transcription inspected 2026-10-07 also displays 150; an older local verification note describes a historical discrepancy."
+  },
+  "baseSource": "https://pic.pimg.tw/punchboardgame/1692682311-1895394351-g_n.jpg",
+  "baseProfiles": [
+    {
+      "horse": 0,
+      "names": {
+        "zh-Hant": "白雪公主",
+        "en": "Snow White"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 15,
+        "carrot": 8,
+        "shoe": 4
+      }
+    },
+    {
+      "horse": 1,
+      "names": {
+        "zh-Hant": "黑色傳說",
+        "en": "Black Story"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 5,
+        "carrot": 11,
+        "shoe": 8
+      }
+    },
+    {
+      "horse": 2,
+      "names": {
+        "zh-Hant": "赤紅地毯",
+        "en": "Red Carpet"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 10,
+        "carrot": 10,
+        "shoe": 1
+      }
+    },
+    {
+      "horse": 3,
+      "names": {
+        "zh-Hant": "湛藍海洋",
+        "en": "Blue Ocean"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 10,
+        "carrot": 7,
+        "shoe": 1
+      }
+    },
+    {
+      "horse": 4,
+      "names": {
+        "zh-Hant": "金黃猛虎",
+        "en": "Yellow Tiger"
+      },
+      "moves": {
+        "head": 5,
+        "cap": 1,
+        "carrot": 1,
+        "shoe": 13
+      }
+    },
+    {
+      "horse": 5,
+      "names": {
+        "zh-Hant": "綠貝雷帽",
+        "en": "Green Beret"
+      },
+      "moves": {
+        "head": 6,
+        "cap": 1,
+        "carrot": 10,
+        "shoe": 1
+      }
+    },
+    {
+      "horse": 6,
+      "names": {
+        "zh-Hant": "橘子汽水",
+        "en": "Orangena"
+      },
+      "moves": {
+        "head": 7,
+        "cap": 5,
+        "carrot": 3,
+        "shoe": 1
+      }
+    }
+  ],
+  "historicalSource": "https://pic.pimg.tw/punchboardgame/1692682299-3046323906-g_n.jpg",
+  "historicalProfiles": [
+    {
+      "names": {
+        "zh-Hant": "全副武裝",
+        "en": "Armed"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 4,
+        "carrot": 2,
+        "shoe": 12
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "新晉球手",
+        "en": "Busher"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 1,
+        "carrot": 16,
+        "shoe": 1
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "從中作梗",
+        "en": "Stymie"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 12,
+        "carrot": 4,
+        "shoe": 5
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "潛水鳥",
+        "en": "Devil Diver"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 14,
+        "carrot": 1,
+        "shoe": 9
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "法律顧問",
+        "en": "Zev"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 6,
+        "carrot": 6,
+        "shoe": 12
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "暮光之淚",
+        "en": "Twilight Tear"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 9,
+        "carrot": 8,
+        "shoe": 7
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": null,
+        "en": "Alsab"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 6,
+        "carrot": 12,
+        "shoe": 9
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "衝上雲霄",
+        "en": "Top Flight"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 3,
+        "carrot": 12,
+        "shoe": 12
+      }
+    }
+  ],
+  "remaining": {
+    "baseProfiles": 14,
+    "historicalProfiles": 20,
+    "uncertainNames": [
+      "Alsab Chinese transcription"
+    ],
+    "rules": [
+      "Full Chinese manual",
+      "Exact finish/lap convention",
+      "Pace eligibility",
+      "Crowded-field last-place ties",
+      "Settlement order",
+      "Later starter and deck handling"
+    ]
+  },
+  "deliverable": "Luxury visual concept proposal; no production game logic, meshes, manufactured dice balance or complete edition data is certified.",
+  "horseIdentities": [
+    "white",
+    "black",
+    "rose/coral pink",
+    "blue",
+    "yellow",
+    "green",
+    "orange"
+  ],
+  "dice": {
+    "head": 3,
+    "cap": 1,
+    "carrot": 1,
+    "shoe": 1,
+    "reference": "https://liberteabi.hatenablog.jp/entry/2017/02/26/143000",
+    "photo": "https://pic.pimg.tw/punchboardgame/1692682301-276007768-g_n.jpg"
+  },
+  "deckCounts": {
+    "base": 21,
+    "historical": 28,
+    "total": 49,
+    "publisher": "https://groupsne.co.jp/products/bg/royalturf/index.html"
+  },
+  "designChoices": {
+    "horseNumbers": "01 to 07 are new visual identifiers, not movement values.",
+    "palette": "Proposed luxury finishes preserve the seven source identities; colors are not measured production color matches.",
+    "horseFigures": "Original 3D sculpt concepts replace illustrated standees; jockey omission is an art-direction choice.",
+    "boardRenders": "Material and composition studies; use the deterministic 36-cell schematic for structure, not generated cell divisions.",
+    "cardReverse": "Keep an identical back and edge treatment across each deck; horse colour/number retained on bay after flipping.",
+    "playerChips": "Player ownership colors/patterns remain separate from horse identity colors.",
+    "states": "Available, selected, moved, pace and finished states need distinct visual indicators; a moved card resets when eligible horses have all acted."
+  }
+}

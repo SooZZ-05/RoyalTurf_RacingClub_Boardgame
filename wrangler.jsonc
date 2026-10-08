@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "royal-turf-api",
+  "main": "worker/index.ts",
+  "compatibility_date": "2025-09-01",
+  "workers_dev": true,
+  "durable_objects": { "bindings": [{ "name": "ROOMS", "class_name": "GameRoom" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["GameRoom"] }],
+  // Before deploying, add your exact https://<project>.pages.dev origin here.
+  // No trailing slash or wildcard. Keep the SQLite migration above on every deploy.
+  "vars": {"ALLOWED_ORIGINS": "https://horse.soozz05.pages.dev,http://localhost:5173,http://127.0.0.1:5173"},
+}

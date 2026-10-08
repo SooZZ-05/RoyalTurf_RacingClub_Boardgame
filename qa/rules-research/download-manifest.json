@@ -1,0 +1,107 @@
+[
+  {
+    "name": "ameba-01",
+    "url": "https://stat.ameba.jp/user_images/20170706/10/syuku-32/34/67/j/o1280096013976254386.jpg",
+    "status": 403
+  },
+  {
+    "name": "ameba-02",
+    "url": "https://stat.ameba.jp/user_images/20170706/10/syuku-32/97/4f/j/o1280096013976254321.jpg",
+    "status": 403
+  },
+  {
+    "name": "ameba-03",
+    "url": "https://stat.ameba.jp/user_images/20170706/10/syuku-32/93/bf/j/o1280096013976254326.jpg",
+    "status": 403
+  },
+  {
+    "name": "ameba-04",
+    "url": "https://stat.ameba.jp/user_images/20170706/10/syuku-32/87/2f/j/o1280096013976254336.jpg",
+    "status": 403
+  },
+  {
+    "name": "ameba-05",
+    "url": "https://stat.ameba.jp/user_images/20170706/10/syuku-32/e0/7d/j/o1280096013976254341.jpg",
+    "status": 403
+  },
+  {
+    "name": "ameba-06",
+    "url": "https://stat.ameba.jp/user_images/20170706/10/syuku-32/be/11/j/o1280096013976254344.jpg",
+    "status": 403
+  },
+  {
+    "name": "ameba-07",
+    "url": "https://stat.ameba.jp/user_images/20170706/10/syuku-32/86/23/j/o1280096013976254354.jpg",
+    "status": 403
+  },
+  {
+    "name": "ameba-08",
+    "url": "https://stat.ameba.jp/user_images/20170706/10/syuku-32/36/4c/j/o1280096013976254361.jpg",
+    "status": 403
+  },
+  {
+    "name": "ameba-09",
+    "url": "https://stat.ameba.jp/user_images/20170706/10/syuku-32/68/64/j/o1280096013976254366.jpg",
+    "status": 403
+  },
+  {
+    "name": "ameba-10",
+    "url": "https://stat.ameba.jp/user_images/20170706/10/syuku-32/54/84/j/o1280096013976254369.jpg",
+    "status": 403
+  },
+  {
+    "name": "ameba-11",
+    "url": "https://stat.ameba.jp/user_images/20170706/10/syuku-32/a8/59/j/o1280096013976254382.jpg",
+    "status": 403
+  },
+  {
+    "name": "handman-01",
+    "url": "https://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-5.jpg",
+    "status": 200,
+    "size": [
+      640,
+      480
+    ],
+    "path": "qa/rules-research/handman-01.jpg"
+  },
+  {
+    "name": "handman-02",
+    "url": "https://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-2.jpg",
+    "status": 200,
+    "size": [
+      640,
+      480
+    ],
+    "path": "qa/rules-research/handman-02.jpg"
+  },
+  {
+    "name": "handman-03",
+    "url": "https://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-8.jpg",
+    "status": 200,
+    "size": [
+      640,
+      480
+    ],
+    "path": "qa/rules-research/handman-03.jpg"
+  },
+  {
+    "name": "handman-04",
+    "url": "https://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-9.jpg",
+    "status": 200,
+    "size": [
+      640,
+      480
+    ],
+    "path": "qa/rules-research/handman-04.jpg"
+  },
+  {
+    "name": "handman-05",
+    "url": "https://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-11.jpg",
+    "status": 200,
+    "size": [
+      640,
+      480
+    ],
+    "path": "qa/rules-research/handman-05.jpg"
+  }
+]

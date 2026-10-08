@@ -1,0 +1,122 @@
+{
+  "code": "FM3CKRF7",
+  "edition": {
+    "ready": true,
+    "verified": false,
+    "id": "royal-turf-published-decks",
+    "version": "1.2.0-source-backed",
+    "missing": [
+      "Chinese historical names not visible in the source use their printed English names.",
+      "Crowded-field tied-last exception remains an explicitly disclosed digital convention."
+    ],
+    "demo": false,
+    "raceCount": 3,
+    "limitedProfiles": false,
+    "supportedDecks": [
+      "base",
+      "historical"
+    ]
+  },
+  "deck": "historical",
+  "horses": [
+    {
+      "id": 0,
+      "cardId": "published-historical-twenty-grand",
+      "name": "Twenty Grand",
+      "moves": {
+        "head": 3,
+        "cap": 1,
+        "carrot": 5,
+        "shoe": 15
+      },
+      "position": 5
+    },
+    {
+      "id": 1,
+      "cardId": "published-historical-twilight-tear",
+      "name": "Twilight Tear",
+      "moves": {
+        "head": 2,
+        "cap": 9,
+        "carrot": 8,
+        "shoe": 7
+      },
+      "position": 1
+    },
+    {
+      "id": 2,
+      "cardId": "published-historical-seabiscuit",
+      "name": "Seabiscuit",
+      "moves": {
+        "head": 7,
+        "cap": 1,
+        "carrot": 5,
+        "shoe": 3
+      },
+      "position": -2
+    },
+    {
+      "id": 3,
+      "cardId": "published-historical-busher",
+      "name": "Busher",
+      "moves": {
+        "head": 4,
+        "cap": 1,
+        "carrot": 16,
+        "shoe": 1
+      },
+      "position": -3
+    },
+    {
+      "id": 4,
+      "cardId": "published-historical-old-rosebud",
+      "name": "Old Rosebud",
+      "moves": {
+        "head": 1,
+        "cap": 10,
+        "carrot": 9,
+        "shoe": 8
+      },
+      "position": -4
+    },
+    {
+      "id": 5,
+      "cardId": "published-historical-equipoise",
+      "name": "Equipoise",
+      "moves": {
+        "head": 6,
+        "cap": 5,
+        "carrot": 3,
+        "shoe": 4
+      },
+      "position": -5
+    },
+    {
+      "id": 6,
+      "cardId": "published-historical-sysonby",
+      "name": "Sysonby",
+      "moves": {
+        "head": 5,
+        "cap": 4,
+        "carrot": 5,
+        "shoe": 6
+      },
+      "position": -6
+    }
+  ],
+  "manualBetOrder": [
+    2,
+    0,
+    1,
+    1
+  ],
+  "lastMove": {
+    "horseId": 1,
+    "from": -1,
+    "to": 1,
+    "symbol": "head",
+    "distance": 2,
+    "blocked": 0
+  },
+  "errors": []
+}

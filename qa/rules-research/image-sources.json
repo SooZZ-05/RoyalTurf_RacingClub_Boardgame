@@ -1,0 +1,56 @@
+{
+  "sne-three-races": {
+    "page": "https://ameblo.jp/syuku-32/entry-12290098482.html",
+    "status": 200,
+    "images": [
+      "https://stat.ameba.jp/user_images/20170706/10/syuku-32/34/67/j/o1280096013976254386.jpg?caw=800",
+      "https://stat.ameba.jp/user_images/20170706/10/syuku-32/97/4f/j/o1280096013976254321.jpg?caw=800",
+      "https://stat.ameba.jp/user_images/20170706/10/syuku-32/93/bf/j/o1280096013976254326.jpg?caw=800",
+      "https://stat.ameba.jp/user_images/20170706/10/syuku-32/87/2f/j/o1280096013976254336.jpg?caw=800",
+      "https://stat.ameba.jp/user_images/20170706/10/syuku-32/e0/7d/j/o1280096013976254341.jpg?caw=800",
+      "https://stat.ameba.jp/user_images/20170706/10/syuku-32/be/11/j/o1280096013976254344.jpg?caw=800",
+      "https://stat.ameba.jp/user_images/20170706/10/syuku-32/86/23/j/o1280096013976254354.jpg?caw=800",
+      "https://stat.ameba.jp/user_images/20170706/10/syuku-32/36/4c/j/o1280096013976254361.jpg?caw=800",
+      "https://stat.ameba.jp/user_images/20170706/10/syuku-32/68/64/j/o1280096013976254366.jpg?caw=800",
+      "https://stat.ameba.jp/user_images/20170706/10/syuku-32/54/84/j/o1280096013976254369.jpg?caw=800",
+      "https://stat.ameba.jp/user_images/20170706/10/syuku-32/a8/59/j/o1280096013976254382.jpg?caw=800"
+    ]
+  },
+  "sne-handman": {
+    "page": "https://handmanboardgame.com/ボードゲーム紹介/ロイヤルターフ/",
+    "status": 200,
+    "images": [
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-1.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-5-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-2-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-8-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-9-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-11-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-3-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-12-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-4-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-13-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-14-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-15-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-16-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-17-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-18-300x225.jpg",
+      "http://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-19-300x225.jpg"
+    ]
+  },
+  "sne-unboxing": {
+    "page": "https://liberteabi.hatenablog.jp/entry/2017/02/26/143000",
+    "status": 200,
+    "images": [
+      "https://cdn-ak.f.st-hatena.com/images/fotolife/l/liberteabi/20170226/20170226123519.jpg",
+      "https://cdn-ak.f.st-hatena.com/images/fotolife/l/liberteabi/20170226/20170226123544.jpg",
+      "https://cdn-ak.f.st-hatena.com/images/fotolife/l/liberteabi/20170226/20170226123557.jpg",
+      "https://cdn-ak.f.st-hatena.com/images/fotolife/l/liberteabi/20170226/20170226123615.jpg",
+      "https://cdn-ak.f.st-hatena.com/images/fotolife/l/liberteabi/20170226/20170226123637.jpg",
+      "https://cdn-ak.f.st-hatena.com/images/fotolife/l/liberteabi/20170226/20170226123812.jpg",
+      "https://cdn-ak.f.st-hatena.com/images/fotolife/l/liberteabi/20170226/20170226123735.jpg",
+      "https://cdn-ak.f.st-hatena.com/images/fotolife/l/liberteabi/20170226/20170226123757.jpg",
+      "https://cdn-ak.f.st-hatena.com/images/fotolife/l/liberteabi/20170226/20170226123854.jpg"
+    ]
+  }
+}

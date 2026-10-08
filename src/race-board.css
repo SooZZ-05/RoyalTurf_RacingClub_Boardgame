@@ -1,0 +1,1264 @@
+.race-board {
+  --rb-floor: #e7e0d4;
+  --rb-ink: #173d30;
+  --rb-muted: #777d6d;
+  --rb-panel: #faf7ee;
+  --rb-face: #f2ead8;
+  --rb-card-ink: #1b3528;
+  --rb-back: #163e2c;
+  --rb-metal: #b59961;
+  --rb-line: #b8995838;
+  --rb-serif: 'Noto Serif TC', Georgia, serif;
+  --rb-roman: Georgia, 'Noto Serif TC', serif;
+  --rb-card-sheet: url('/game-art/a-cards.png');
+  position: relative;
+  width: min(100%, calc((100dvh - 165px) * 1.5));
+  margin: auto;
+  font-family: var(--rb-serif);
+  color: var(--rb-ink);
+}
+.race-board[data-board-theme='imperial-porcelain'] {
+  --rb-floor: #e2e6e7;
+  --rb-ink: #173049;
+  --rb-muted: #73808b;
+  --rb-face: #f6f1e6;
+  --rb-card-ink: #183451;
+  --rb-back: #1c3654;
+  --rb-metal: #b39b69;
+  --rb-panel: #fbfaf4;
+  --rb-card-sheet: url('/game-art/b-cards.png');
+}
+.race-board[data-board-theme='nocturne'] {
+  --rb-floor: #161719;
+  --rb-ink: #eee3ce;
+  --rb-muted: #b4a895;
+  --rb-face: #1a1b1d;
+  --rb-card-ink: #eadbbf;
+  --rb-back: #141517;
+  --rb-metal: #ad9572;
+  --rb-panel: #232428;
+  --rb-line: #c6b59532;
+  --rb-card-sheet: url('/game-art/c-cards.png');
+}
+.race-board button {
+  font: inherit;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+.race-board button:focus-visible {
+  outline: 2px solid var(--rb-metal);
+  outline-offset: 3px;
+}
+.race-board-scene {
+  position: relative;
+  isolation: isolate;
+  container-type: inline-size;
+  aspect-ratio: 1.5;
+  width: 100%;
+}
+.rb-backdrop {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  user-select: none;
+  mask-image:
+    linear-gradient(to right, transparent, #000 3%, #000 97%, transparent),
+    linear-gradient(to bottom, transparent, #000 4%, #000 94%, transparent);
+  mask-composite: intersect;
+}
+.race-board-infield-action {
+  position: absolute;
+  z-index: 4;
+  left: 48%;
+  top: 34%;
+  width: 32%;
+  text-align: center;
+  color: #ead9b7;
+}
+[data-board-theme='imperial-porcelain'] .race-board-infield-action {
+  color: #193b55;
+}
+
+.rb-numbered-track {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: visible;
+  pointer-events: none;
+}
+.rb-track-cell {
+  fill: transparent;
+}
+.rb-track-divider {
+  stroke: #907750;
+  stroke-width: 1.5;
+  opacity: 0.88;
+}
+.rb-track-number {
+  fill: #453a29;
+  font-family: var(--rb-roman);
+  font-size: 24px;
+  font-weight: 500;
+  paint-order: stroke fill;
+  stroke: #f5ead650;
+  stroke-width: 0.7px;
+}
+.rb-track-number.starting {
+  font-size: 22px;
+  font-weight: 600;
+}
+.rb-start-alias {
+  font-size: 17px;
+  font-weight: 400;
+  fill: #6b5137;
+}
+.rb-track-cell.checkpoint {
+  fill: #c6a15340;
+  stroke: #9c783a;
+  stroke-width: 2.5;
+}
+.rb-checkpoint-diamond {
+  fill: #d8ba7a;
+  stroke: #75613e;
+  stroke-width: 1;
+}
+.rb-checkpoint-plate {
+  fill: #113b2deb;
+  stroke: #c9ab6c;
+  stroke-width: 1.2;
+}
+.rb-checkpoint-title {
+  fill: #ead8ad;
+  font: 500 17px var(--rb-roman);
+  letter-spacing: 1.5px;
+}
+.rb-checkpoint-caption {
+  fill: #c6ae7e;
+  font: 7px var(--rb-roman);
+  letter-spacing: 0.7px;
+}
+.rb-direction-arrow {
+  fill: none;
+  stroke: #dbc28e;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.8;
+}
+[data-board-theme='imperial-porcelain'] .rb-track-number {
+  fill: #183752;
+  stroke: #fff9e750;
+}
+[data-board-theme='imperial-porcelain'] .rb-start-alias {
+  fill: #555c64;
+}
+[data-board-theme='imperial-porcelain'] .rb-track-divider {
+  stroke: #a58c5b;
+}
+[data-board-theme='imperial-porcelain'] .rb-checkpoint-plate {
+  fill: #f0e8d9ee;
+  stroke: #967b44;
+}
+[data-board-theme='imperial-porcelain'] .rb-checkpoint-title {
+  fill: #1e3e55;
+}
+[data-board-theme='imperial-porcelain'] .rb-checkpoint-caption {
+  fill: #685738;
+}
+[data-board-theme='imperial-porcelain'] .rb-direction-arrow {
+  stroke: #526372;
+}
+[data-board-theme='nocturne'] .rb-track-number {
+  fill: #222b32;
+  stroke: #eee6d550;
+}
+[data-board-theme='nocturne'] .rb-start-alias {
+  fill: #292725;
+  font-weight: 600;
+  stroke: #eee6d5;
+  stroke-width: 1.8px;
+  paint-order: stroke fill;
+}
+[data-board-theme='nocturne'] .rb-track-divider {
+  stroke: #675f51;
+}
+[data-board-theme='nocturne'] .rb-track-cell.checkpoint {
+  fill: #9b3c4540;
+  stroke: #67444a;
+}
+[data-board-theme='nocturne'] .rb-checkpoint-plate {
+  fill: #211e21f2;
+  stroke: #c7b491;
+}
+[data-board-theme='nocturne'] .rb-checkpoint-title {
+  fill: #ede2cd;
+}
+[data-board-theme='nocturne'] .rb-checkpoint-caption {
+  fill: #c7bca8;
+}
+[data-board-theme='nocturne'] .rb-direction-arrow {
+  stroke: #d6cbb4;
+}
+
+.rb-horse-pieces {
+  position: absolute;
+  inset: 0;
+  /* Physical figurines sit above the infield engraving, including when a
+     crowded-field pack reaches the inside edge of a bend. */
+  z-index: 6;
+  pointer-events: none;
+}
+.rb-horse-piece {
+  position: absolute;
+  display: block;
+  width: var(--piece-width, 6.5104167cqw);
+  height: calc(var(--piece-width, 6.5104167cqw) * 4 / 3);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  transform: translate(-50%, calc(-1 * var(--base-anchor, 83%)));
+  pointer-events: auto;
+  isolation: isolate;
+  --piece-facing: 1;
+  --piece-hop: 0cqw;
+}
+.rb-piece-art {
+  position: absolute;
+  inset: 0;
+  display: block;
+  background-image: var(--rb-atlas);
+  background-repeat: no-repeat;
+  background-size: 400% 200%;
+  background-position: var(--sprite-x) var(--sprite-y);
+  transform: translateY(calc(-1 * var(--piece-hop))) scaleX(var(--piece-facing));
+  transform-origin: 50% var(--base-anchor, 83%);
+  pointer-events: none;
+  filter: drop-shadow(0 0.12cqw 0.1cqw #0003);
+}
+.rb-piece-ground {
+  position: absolute;
+  left: 22%;
+  top: calc(var(--base-anchor, 83%) - 6%);
+  width: 58%;
+  height: 12%;
+  border-radius: 50%;
+  background: #090b09;
+  opacity: 0.35;
+  filter: blur(0.19cqw);
+  pointer-events: none;
+}
+.rb-horse-piece.selectable .rb-piece-ground {
+  background: var(--piece-color);
+  box-shadow:
+    0 0 0 0.12cqw var(--rb-metal),
+    0 0 0.6cqw 0.15cqw var(--piece-color);
+  opacity: 0.75;
+  filter: blur(0.08cqw);
+}
+.rb-horse-piece.selectable:hover .rb-piece-art,
+.rb-horse-piece:focus-visible .rb-piece-art {
+  filter: drop-shadow(0 0 0.25cqw #ffe5a9) drop-shadow(0 0.2cqw 0.12cqw #0005);
+}
+.rb-horse-piece:focus-visible {
+  outline: 0 !important;
+}
+.rb-horse-piece:focus-visible .rb-piece-ground {
+  outline: 0.16cqw solid #fff0bf;
+  outline-offset: 0.15cqw;
+}
+.rb-piece-number {
+  position: absolute;
+  left: 68%;
+  top: calc(var(--base-anchor, 83%) - 12%);
+  min-width: 0.95cqw;
+  height: 0.95cqw;
+  padding: 0 0.1cqw;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--rb-metal);
+  border-radius: 50%;
+  background: var(--rb-floor);
+  color: var(--rb-ink);
+  font: 600 0.65cqw var(--rb-roman);
+  pointer-events: none;
+  box-shadow: 0 0.08cqw 0.12cqw #0003;
+}
+.rb-horse-piece.used .rb-piece-number {
+  opacity: 0.7;
+}
+.rb-horse-piece.moving {
+  will-change: left, top;
+}
+.rb-horse-piece.moving .rb-piece-number {
+  background: var(--piece-color);
+  color: #15252b;
+}
+.rb-pace-marker {
+  position: absolute;
+  left: 15%;
+  top: calc(var(--base-anchor, 83%) - 25%);
+  color: #f2d289;
+  font-size: 1.2cqw;
+  filter: drop-shadow(0 1px 1px #33250c);
+}
+
+.rb-cards-rail {
+  position: absolute;
+  left: 6.35%;
+  right: 4.5%;
+  top: 65.65%;
+  height: 16%;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0;
+  perspective: 1400px;
+  z-index: 5;
+}
+.rb-card-bay {
+  position: relative;
+  min-width: 0;
+  padding: 0.15cqw 0 0;
+  display: flex;
+  align-items: flex-start;
+}
+.rb-card-shell {
+  width: 48.4%;
+  aspect-ratio: 0.665;
+  position: relative;
+  perspective: 700px;
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+.rb-horse-card {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  text-align: left;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.35, 0.1, 0.25, 1);
+  position: relative;
+  border: 0;
+  background: none;
+  border-radius: 0.45cqw;
+  box-shadow: 0.14cqw 0.24cqw 0.15cqw #0005;
+}
+.rb-horse-card.flipped {
+  transform: rotateY(180deg);
+}
+.rb-card-face {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  backface-visibility: hidden;
+  border: 0.09cqw solid var(--rb-metal);
+  border-radius: 0.43cqw;
+  background: var(--rb-face);
+  color: var(--rb-card-ink);
+  box-shadow:
+    inset 0 0 0 0.15cqw var(--rb-face),
+    inset 0 0 0 0.2cqw var(--rb-metal);
+  display: flex;
+  flex-direction: column;
+  padding: 0.28cqw;
+}
+.rb-card-front {
+  transform: translateZ(0.1px);
+}
+.rb-card-back {
+  transform: rotateY(180deg);
+  padding: 0;
+  background: var(--rb-back);
+}
+.rb-card-back-art {
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: 390% 165%;
+  background-position: 57% 41%;
+  background-image: var(--rb-card-sheet);
+}
+.rb-card-back::after {
+  content: '';
+  position: absolute;
+  inset: 0.22cqw;
+  border: 1px solid #ba9c5a99;
+  border-radius: 0.3cqw;
+}
+.rb-card-portrait {
+  height: 47%;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: var(--rb-card-sheet);
+  background-size: 341.33% 365.71%;
+  background-position: 14.73% 19.49%;
+}
+.rb-card-portrait::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 -0.45cqw 0.6cqw var(--rb-face);
+}
+.rb-card-number {
+  position: absolute;
+  left: 0.17cqw;
+  top: 0;
+  background: var(--horse);
+  color: #21342d;
+  padding: 0.4cqw 0.3cqw 0.7cqw;
+  font: 1.35cqw var(--rb-roman);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+  z-index: 1;
+  border-inline: 1px solid var(--rb-metal);
+  text-shadow: 0 1px #ffffff80;
+}
+.rb-card-bay:nth-child(2) .rb-card-number {
+  color: #f9e8be;
+  text-shadow: none;
+}
+.rb-card-name {
+  text-align: center;
+  font-size: 0.45cqw;
+  font-weight: 600;
+  letter-spacing: 0.08cqw;
+  margin: 0.15cqw 0 0.09cqw;
+  white-space: nowrap;
+}
+.rb-card-en {
+  text-align: center;
+  font: 0.25cqw var(--rb-roman);
+  letter-spacing: 0.055cqw;
+  margin: 0 0 0.18cqw;
+  white-space: nowrap;
+}
+.rb-card-stats {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+.rb-stat {
+  display: flex;
+  align-items: center;
+  gap: 0.25cqw;
+  border-top: 0.055cqw solid color-mix(in srgb, var(--rb-metal), transparent 35%);
+  padding: 0 0.14cqw;
+  flex: 1;
+  transition: background 0.25s;
+}
+.rb-stat svg {
+  height: 0.65cqw;
+  width: 0.65cqw;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+.rb-stat > span {
+  font: 0.24cqw var(--rb-roman);
+  letter-spacing: 0.025cqw;
+  white-space: nowrap;
+}
+.rb-stat strong {
+  font: 600 0.88cqw var(--rb-roman);
+  margin-left: auto;
+  line-height: 1;
+}
+.rb-stat.highlight {
+  background: color-mix(in srgb, var(--rb-metal), transparent 72%);
+  box-shadow: inset 2px 0 var(--rb-metal);
+}
+.rb-cradle-label {
+  position: absolute;
+  bottom: -1.1cqw;
+  left: -0.08cqw;
+  right: -0.08cqw;
+  color: #ead8b5;
+  background: color-mix(in srgb, var(--horse), #111 55%);
+  border: 1px solid var(--rb-metal);
+  border-radius: 0.13cqw;
+  padding: 0.13cqw 0.05cqw;
+  text-align: center;
+  font-size: 0.43cqw;
+  letter-spacing: 0.015cqw;
+  white-space: nowrap;
+  box-shadow: 0 0.1cqw 0.15cqw #0003;
+}
+.rb-cradle-label b {
+  font: 600 0.6cqw var(--rb-roman);
+  margin-right: 0.1cqw;
+}
+.rb-card-inspect {
+  position: absolute;
+  right: -0.8cqw;
+  top: -0.7cqw;
+  width: 1.7cqw;
+  height: 1.7cqw;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--rb-panel);
+  border: 1px solid var(--rb-metal);
+  color: var(--rb-ink);
+  font-size: 1.1cqw !important;
+  z-index: 4;
+  opacity: 0;
+  transition: opacity 0.2s;
+  padding: 0;
+}
+.rb-card-shell:hover .rb-card-inspect,
+.rb-card-shell:focus-within .rb-card-inspect {
+  opacity: 1;
+}
+.rb-card-shell:hover {
+  transform: translateY(-0.7cqw);
+  z-index: 10;
+}
+.rb-card-bay.available .rb-horse-card {
+  box-shadow:
+    0 0 0 1px #e8cf8e55,
+    0.14cqw 0.24cqw 0.15cqw #0005;
+}
+.rb-card-bay.available .rb-horse-card:hover {
+  box-shadow:
+    0 0 0 2px #edcd80,
+    0 0.8cqw 1cqw #0005;
+}
+.rb-used-label {
+  position: absolute;
+  left: 86%;
+  top: 34%;
+  font-size: 0.53cqw;
+  letter-spacing: 0.07cqw;
+  color: #e0cfac;
+  writing-mode: vertical-rl;
+}
+[data-board-theme='imperial-porcelain'] .rb-card-portrait {
+  background-size: 325% 345%;
+  background-position: 10% 33%;
+}
+[data-board-theme='imperial-porcelain'] .rb-card-back-art {
+  background-size: 408% 170%;
+  background-position: 56% 50%;
+}
+[data-board-theme='imperial-porcelain'] .rb-used-label {
+  color: #183a50;
+}
+[data-board-theme='nocturne'] .rb-card-portrait {
+  background-size: 320% 310%;
+  background-position: 9% 21%;
+}
+[data-board-theme='nocturne'] .rb-card-back-art {
+  background-size: 427% 158%;
+  background-position: 57% 45%;
+}
+.rb-exact-source {
+  padding: 0 !important;
+  background: transparent;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.rb-exact-art {
+  position: absolute;
+  inset: 0;
+  background-image: var(--rb-card-sheet);
+  background-repeat: no-repeat;
+  background-size: 312.195% 138.192%;
+  background-position: 13.219% 43.105%;
+  border-radius: inherit;
+}
+.rb-exact-highlight {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  top: calc(51% + var(--stat-index) * 10.7%);
+  height: 10.7%;
+  background: #dcaa4933;
+  border: 1px solid #9f743c66;
+}
+[data-board-theme='imperial-porcelain'] .rb-exact-art {
+  background-size: 295.385% 125.644%;
+  background-position: 7.677% 63.158%;
+}
+[data-board-theme='imperial-porcelain'] .rb-exact-highlight {
+  top: calc(53% + var(--stat-index) * 10.6%);
+  height: 10.6%;
+}
+[data-board-theme='nocturne'] .rb-exact-art {
+  background-size: 277.758% 126.264%;
+  background-position: 6.104% 54.93%;
+}
+[data-board-theme='nocturne'] .rb-exact-highlight {
+  top: calc(54% + var(--stat-index) * 10%);
+  height: 10%;
+}
+[data-board-theme='imperial-porcelain'] .rb-cards-rail {
+  left: 7.05%;
+  right: 4.05%;
+  top: 69.4%;
+  height: 13.5%;
+}
+[data-board-theme='imperial-porcelain'] .rb-card-shell {
+  width: 45.5%;
+}
+[data-board-theme='nocturne'] .rb-cards-rail {
+  left: 6.5%;
+  right: 3.2%;
+  top: 66.4%;
+  height: 16%;
+}
+[data-board-theme='nocturne'] .rb-card-shell {
+  width: 43.7%;
+}
+
+.rb-bet-well {
+  position: absolute;
+  left: 55%;
+  top: 5%;
+  width: 26%;
+  height: 85%;
+  display: grid;
+  place-items: center;
+  border: 0;
+  padding: 0;
+  background: none;
+  z-index: 3;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+[data-board-theme='imperial-porcelain'] .rb-bet-well {
+  left: 52%;
+}
+[data-board-theme='nocturne'] .rb-bet-well {
+  left: 48%;
+}
+.rb-bet-well:hover,
+.rb-bet-well:focus-visible,
+.rb-bet-well.available {
+  background: #d0b87b20;
+  outline: 1px solid var(--rb-metal);
+  outline-offset: 0;
+}
+.rb-well-chips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25cqw;
+  width: 100%;
+}
+.rb-bet-chip {
+  position: relative;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 2.2cqw;
+  height: 2.2cqw;
+  border-radius: 50%;
+  background: var(--bettor);
+  border: 0.15cqw solid #e0cda3;
+  box-shadow:
+    0 0.18cqw 0 color-mix(in srgb, var(--bettor), #000 35%),
+    0 0.28cqw 0.25cqw #0007;
+  color: #fff1d4;
+  font-family: var(--rb-roman);
+  isolation: isolate;
+}
+.rb-bet-chip::after {
+  content: '';
+  position: absolute;
+  inset: 8%;
+  border: 1px dashed #f0dfb27a;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.rb-bet-chip b {
+  font-size: 1.2cqw;
+  font-weight: 600;
+  line-height: 1;
+}
+.rb-bet-chip small {
+  position: absolute;
+  right: -0.18cqw;
+  bottom: -0.12cqw;
+  width: 0.85cqw;
+  height: 0.85cqw;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--bettor);
+  color: #fff4dd;
+  font: 600 0.55cqw var(--rb-roman);
+  border: 1px solid #e3cea1;
+  z-index: 2;
+}
+.rb-bet-chip.face-up {
+  background: radial-gradient(circle, #faf0d7 0 57%, var(--bettor) 59%);
+  color: #2c2a24;
+}
+.rb-bet-chip.face-down b {
+  font-size: 1cqw;
+}
+.rb-well-chips.dense {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4cqw 0.12cqw;
+}
+.rb-well-chips.dense .rb-bet-chip {
+  width: 1.35cqw;
+  height: 1.35cqw;
+}
+.rb-well-chips.dense .rb-bet-chip b {
+  font-size: 0.8cqw;
+}
+.rb-well-chips.dense .rb-bet-chip small {
+  font-size: 0.4cqw;
+  width: 0.6cqw;
+  height: 0.6cqw;
+}
+.rb-place-bet {
+  color: #e7d8b6;
+  font-size: 2cqw;
+  line-height: 1;
+}
+[data-board-theme='imperial-porcelain'] .rb-place-bet {
+  color: #314768;
+}
+
+.rb-payout-plate {
+  --rb-payout-ground: #123d2c;
+  --rb-payout-ink: #ecdbb9;
+  --rb-payout-line: #c0a16b73;
+  position: absolute;
+  z-index: 4;
+  left: 20.2%;
+  top: 30.25%;
+  width: 22.7%;
+  height: 14.5%;
+  padding: 0.7cqw 0.65cqw 0.5cqw;
+  color: var(--rb-payout-ink);
+  background: linear-gradient(125deg, #ffffff04, #0000000a), var(--rb-payout-ground);
+  border: 0.12cqw solid var(--rb-metal);
+  box-shadow:
+    inset 0 0 0 0.22cqw var(--rb-payout-ground),
+    inset 0 0 0 0.27cqw var(--rb-payout-line),
+    0 0.15cqw 0.3cqw #0003;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rb-payout-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.15cqw 0.4cqw;
+  font-size: 0.92cqw;
+  letter-spacing: 0.12cqw;
+  line-height: 1.1;
+}
+.rb-payout-title > span:last-child {
+  font: 1cqw var(--rb-roman);
+  opacity: 0.65;
+}
+.rb-payout-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-variant-numeric: lining-nums tabular-nums;
+  text-align: center;
+  flex: 1;
+}
+.rb-payout-table th,
+.rb-payout-table td {
+  border-bottom: 0.055cqw solid var(--rb-payout-line);
+  border-right: 0.055cqw solid var(--rb-payout-line);
+  padding: 0.16cqw 0.08cqw;
+  font:
+    600 1.1cqw Georgia,
+    serif;
+  line-height: 1.1;
+}
+.rb-payout-table thead th {
+  font-size: 0.9cqw;
+  color: inherit;
+}
+.rb-payout-table th:first-child {
+  width: 24%;
+  font: 500 0.72cqw var(--rb-serif);
+  letter-spacing: 0.01cqw;
+}
+.rb-payout-table th:last-child,
+.rb-payout-table td:last-child {
+  border-right: 0;
+}
+.rb-payout-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+.rb-payout-expand {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background: transparent;
+}
+.rb-payout-expand:hover {
+  background: #ffffff08;
+}
+[data-board-theme='imperial-porcelain'] .rb-payout-plate {
+  --rb-payout-ground: #ece4d4;
+  --rb-payout-ink: #18354c;
+  --rb-payout-line: #9a825177;
+  left: 25.25%;
+  top: 37.65%;
+  width: 22.2%;
+  height: 14.5%;
+  border-radius: 0.15cqw;
+  background: linear-gradient(125deg, #ffffff55, transparent), var(--rb-payout-ground);
+}
+[data-board-theme='nocturne'] .rb-payout-plate {
+  --rb-payout-ground: #1b1c1d;
+  --rb-payout-ink: #e8dcc3;
+  --rb-payout-line: #b8a68166;
+  left: 22.05%;
+  top: 34.25%;
+  width: 22.6%;
+  height: 14.2%;
+}
+.rb-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.race-board-dialog {
+  width: min(540px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  overflow: auto;
+  padding: 32px;
+  border: 1px solid var(--rb-metal);
+  border-radius: 10px;
+  background: var(--rb-panel);
+  color: var(--rb-ink);
+  box-shadow: 0 25px 100px #0005;
+  font-family: var(--rb-serif);
+}
+.race-board-dialog::backdrop {
+  background: #101510b3;
+  backdrop-filter: blur(6px);
+}
+.race-board-dialog h2 {
+  margin: 0 32px 22px 0;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.race-board-dialog p {
+  font-size: 12px;
+  line-height: 1.9;
+  color: var(--rb-muted);
+}
+.rb-dialog-close {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 26px !important;
+}
+.rb-payout-table.detail {
+  --rb-payout-line: var(--rb-line);
+  margin: 24px 0;
+  border: 1px solid var(--rb-metal);
+}
+.rb-payout-table.detail th,
+.rb-payout-table.detail td {
+  padding: 12px 4px;
+  font-size: 17px;
+  line-height: 1.25;
+  border-width: 1px;
+}
+.rb-payout-table.detail thead th {
+  font-size: 14px;
+  background: color-mix(in srgb, var(--rb-metal), transparent 90%);
+}
+.rb-payout-table.detail th:first-child {
+  width: 24%;
+  font-size: 12px;
+}
+.rb-payout-formula {
+  border-block: 1px solid var(--rb-line);
+  padding: 17px 0;
+  color: var(--rb-ink) !important;
+}
+.rb-large-card {
+  width: min(250px, 75vw);
+  aspect-ratio: 0.665;
+  position: relative;
+  container-type: inline-size;
+  margin: 0 auto 24px;
+  box-shadow: 0 10px 20px #0002;
+}
+.rb-large-card .rb-card-face {
+  border-radius: 5cqw;
+  border-width: 0.5cqw;
+  padding: 3cqw;
+  box-shadow:
+    inset 0 0 0 1.3cqw var(--rb-face),
+    inset 0 0 0 1.6cqw var(--rb-metal);
+}
+.rb-large-card .rb-card-number {
+  font-size: 17cqw;
+  padding: 3cqw 4cqw 8cqw;
+  left: 1cqw;
+}
+.rb-large-card .rb-card-name {
+  font-size: 7cqw;
+  letter-spacing: 1cqw;
+  margin: 2cqw 0 0.5cqw;
+}
+.rb-large-card .rb-card-en {
+  font-size: 3cqw;
+  letter-spacing: 1cqw;
+  margin-bottom: 2cqw;
+}
+.rb-large-card .rb-stat {
+  padding: 0.35cqw 2cqw;
+  gap: 5cqw;
+  border-top-width: 0.25cqw;
+}
+.rb-large-card .rb-stat svg {
+  width: 10cqw;
+  height: 10cqw;
+}
+.rb-large-card .rb-stat > span {
+  font-size: 3.4cqw;
+  letter-spacing: 0.45cqw;
+}
+.rb-large-card .rb-stat strong {
+  font-size: 13cqw;
+}
+.rb-accessible-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  padding-block: 12px;
+  margin: 0;
+  border-block: 1px solid var(--rb-line);
+}
+.rb-accessible-stats > div {
+  text-align: center;
+}
+.rb-accessible-stats dt {
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.rb-accessible-stats dt svg {
+  width: 14px;
+  height: 14px;
+}
+.rb-accessible-stats dd {
+  margin: 7px 0 0;
+  font: 23px var(--rb-roman);
+}
+.rb-dialog-action {
+  display: block;
+  width: 100%;
+  padding: 13px;
+  background: var(--rb-ink);
+  color: var(--rb-floor) !important;
+  border: 1px solid var(--rb-metal);
+  border-radius: 4px;
+  font-size: 13px !important;
+}
+.rb-inspect-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  margin-top: 22px;
+}
+.rb-inspect-nav button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--rb-metal);
+  border-radius: 50%;
+  background: var(--horse);
+  color: #162821;
+  text-shadow: 0 1px #ffffff80;
+}
+.rb-inspect-nav button:nth-child(2) {
+  color: #fff5df;
+  text-shadow: none;
+}
+.rb-inspect-nav button[aria-pressed='true'] {
+  outline: 2px solid var(--rb-metal);
+  outline-offset: 3px;
+}
+.rb-bet-rows {
+  margin-block: 22px;
+  border-top: 1px solid var(--rb-line);
+}
+.rb-bet-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 76px;
+  border-bottom: 1px solid var(--rb-line);
+  font-size: 14px;
+}
+.rb-bettor-avatar {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  color: #fff1d4;
+  border: 1px solid var(--rb-metal);
+  border-radius: 50%;
+  font: 18px var(--rb-roman);
+  flex-shrink: 0;
+}
+.rb-bet-row > span > small {
+  display: block;
+  font-size: 10px;
+  color: var(--rb-muted);
+  margin-top: 3px;
+}
+.rb-bet-caption {
+  margin-left: auto;
+  font-size: 11px;
+  color: var(--rb-muted);
+}
+.rb-bet-row .rb-bet-chip {
+  width: 42px;
+  height: 42px;
+  border-width: 2px;
+  box-shadow:
+    0 3px 0 color-mix(in srgb, var(--bettor), #000 35%),
+    0 5px 5px #0003;
+}
+.rb-bet-row .rb-bet-chip b {
+  font-size: 25px;
+}
+.rb-bet-row .rb-bet-chip small {
+  width: 16px;
+  height: 16px;
+  right: -3px;
+  bottom: -2px;
+  font-size: 10px;
+  display: grid;
+  margin: 0;
+  color: #fff1d4;
+}
+
+@media (max-width: 1100px) {
+  .rb-card-inspect {
+    opacity: 1;
+    width: 2cqw;
+    height: 2cqw;
+    font-size: 1.3cqw !important;
+  }
+}
+@media (max-width: 700px) {
+  .race-board {
+    width: 100%;
+    padding-bottom: 200px;
+  }
+  .race-board-infield-action {
+    top: 98%;
+    left: 8%;
+    width: 84%;
+    color: var(--rb-ink);
+  }
+  .rb-card-inspect {
+    width: 4.5cqw;
+    height: 4.5cqw;
+    right: -2cqw;
+    top: -3cqw;
+    font-size: 2.4cqw !important;
+    background: color-mix(in srgb, var(--rb-panel), transparent 9%);
+  }
+  .rb-card-name {
+    font-size: 0.45cqw;
+    letter-spacing: 0;
+  }
+  .rb-cradle-label {
+    bottom: -1.7cqw;
+    font-size: 0.52cqw;
+  }
+  .rb-cradle-label b {
+    font-size: 0.7cqw;
+  }
+  .rb-used-label {
+    font-size: 0.7cqw;
+  }
+  .rb-well-chips {
+    gap: 0.2cqw;
+  }
+  .rb-bet-chip {
+    width: 2.3cqw;
+    height: 2.3cqw;
+    border-width: 0.17cqw;
+  }
+  .rb-bet-chip b {
+    font-size: 1.5cqw;
+  }
+  .rb-bet-chip.face-down b {
+    font-size: 1.3cqw;
+  }
+  .rb-bet-chip small {
+    width: 1cqw;
+    height: 1cqw;
+    font-size: 0.68cqw;
+    border-width: 0.5px;
+  }
+  .rb-bet-well::before {
+    content: '';
+    position: absolute;
+    inset: -4px -8px -4px -2px;
+  }
+  .rb-payout-plate {
+    min-height: 40px;
+  }
+  .rb-payout-title {
+    font-size: 1.22cqw;
+    padding-bottom: 0.5cqw;
+  }
+  .rb-payout-table th,
+  .rb-payout-table td {
+    font-size: 1.3cqw;
+  }
+  .rb-payout-table thead th {
+    font-size: 1.1cqw;
+  }
+  .rb-payout-table th:first-child {
+    font-size: 0.88cqw;
+  }
+  .race-board-dialog {
+    padding: 28px 20px 22px;
+  }
+  .race-board-dialog h2 {
+    font-size: 19px;
+  }
+  .rb-payout-table.detail th,
+  .rb-payout-table.detail td {
+    padding: 10px 2px;
+    font-size: 15px;
+  }
+  .rb-payout-table.detail th:first-child {
+    font-size: 10px;
+  }
+  .rb-bet-row {
+    gap: 8px;
+    font-size: 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .race-board *,
+  .race-board *::before,
+  .race-board *::after {
+    transition: none !important;
+  }
+  .rb-piece-art {
+    transform: scaleX(var(--piece-facing));
+  }
+}
+.rb-card-award,
+.rb-card-loss {
+  position: absolute;
+  z-index: 6;
+  top: -2.7cqw;
+  padding: 0.28cqw 0.45cqw;
+  border: 1px solid var(--rb-metal);
+  border-radius: 0.3cqw;
+  background: var(--rb-panel);
+  color: var(--rb-ink);
+  font: 0.75cqw var(--rb-roman);
+  white-space: nowrap;
+  box-shadow: 0 0.15cqw 0.3cqw #0003;
+}
+.rb-card-award {
+  left: 0;
+}
+.rb-card-loss {
+  right: 7%;
+  top: -1.3cqw;
+  color: #9c4036;
+}
+.rb-card-bay.last-place .rb-horse-card {
+  outline: 1px solid #b95142;
+  outline-offset: 2px;
+}
+.rb-last-marker {
+  position: absolute;
+  z-index: 8;
+  right: 16%;
+  bottom: 7%;
+  width: 1.6cqw;
+  height: 1.6cqw;
+  display: grid;
+  place-items: center;
+  border: 1px solid #e3c99c;
+  border-radius: 50%;
+  background: #9c4036;
+  color: #fff3d5;
+  font: bold 1cqw Georgia;
+}
+.rb-payout-checkpoint,
+.rb-payout-last {
+  padding: 10px 12px;
+  border-left: 2px solid var(--rb-metal);
+  background: color-mix(in srgb, var(--rb-metal), transparent 93%);
+}
+@media (max-width: 700px) {
+  .rb-card-award,
+  .rb-card-loss {
+    font-size: 1.8cqw;
+    top: -3.8cqw;
+    padding: 0.3cqw 0.5cqw;
+  }
+  .rb-card-loss {
+    top: -1.5cqw;
+  }
+  .rb-last-marker {
+    width: 2.5cqw;
+    height: 2.5cqw;
+    font-size: 1.7cqw;
+  }
+}
+.rb-last-stand {
+  fill: color-mix(in srgb, var(--rb-back), #000 35%);
+  stroke: var(--rb-metal);
+  stroke-width: 2;
+}
+.rb-last-stand-label {
+  fill: var(--rb-metal);
+  font:
+    16px Georgia,
+    serif;
+  letter-spacing: 1px;
+}
+.race-board-infield-action {
+  pointer-events: none;
+}
+.race-board-infield-action button {
+  pointer-events: auto;
+}

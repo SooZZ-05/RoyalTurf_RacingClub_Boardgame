@@ -1,0 +1,18 @@
+{
+  "generator": "built-in image_gen",
+  "purpose": "Orient the seven figurines left along the bottom straight for clockwise racing; preserve the approved board composition.",
+  "assets": [
+    {
+      "theme": "royal-club",
+      "prompt": "Use case: precise-object-edit. Edit target: this exact existing luxury game board image, 1536x1024. Make ONE very local correction only: rotate EACH of the seven horse figurines on its existing circular base so ALL SEVEN horses FACE LEFT, toward the left curve of the racetrack. This means their noses point to the LEFT and tails trail to the RIGHT, consistent with clockwise running when viewed from above. Keep each individual figurine's same color, size, material and scale, same base location and spacing. Left-to-right color order must remain white, black, pink, blue, yellow, green, orange. Do NOT reverse color order or mirror the board. Do NOT move any bases or change any other object. Keep precisely seven horses. Preserve the EXACT lane shape, all blank ivory lane surfaces without lines or numbers, all infield decoration and empty payout panel, podium, border trim, all seven card/chip recesses, camera, framing, image dimensions, shadows, background and lighting. Do not add text, labels, numbers, checkpoint, arrows or finish stripe: these are supplied separately as live vector overlays. Preserve the exact pixel alignment of the existing board. Change only the horses' orientation to face LEFT.",
+      "file": "royal-club-clockwise.png",
+      "source": "royal-club-track-base.png"
+    },
+    {
+      "theme": "imperial-porcelain",
+      "prompt": "Use case: precise-object-edit. Edit target: this exact existing luxury game board image, 1536x1024. Make ONE very local correction only: rotate EACH of the seven horse figurines on its existing circular base so ALL SEVEN horses FACE LEFT, toward the left curve of the racetrack. This means their noses point to the LEFT and tails trail to the RIGHT, consistent with clockwise running when viewed from above. Keep each individual figurine's same color, size, material and scale, same base location and spacing. Left-to-right color order must remain white, black, pink, blue, yellow, green, orange. Do NOT reverse color order or mirror the board. Do NOT move any bases or change any other object. Keep precisely seven horses. Preserve the EXACT lane shape, all blank ivory lane surfaces without lines or numbers, all infield decoration and empty payout panel, podium, border trim, all seven card/chip recesses, camera, framing, image dimensions, shadows, background and lighting. Do not add text, labels, numbers, checkpoint, arrows or finish stripe: these are supplied separately as live vector overlays. Preserve the exact pixel alignment of the existing board. Change only the horses' orientation to face LEFT.",
+      "file": "imperial-porcelain-clockwise.png",
+      "source": "imperial-porcelain-track-base.png"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "title": "皇家賽馬場 — Gameplay dashboard redesign",
+  "status": "Design review prototype only; production gameplay is unchanged.",
+  "sourceAnnotation": 1,
+  "primaryViewport": {
+    "width": 953,
+    "height": 924
+  },
+  "decisions": [
+    {
+      "comment": 1,
+      "change": "Remove permanent theme sidebar. Top-right menu expands to pause/resume, host-controlled table theme and exit. Opening menu alone does not pause."
+    },
+    {
+      "comment": 2,
+      "change": "One board scene fills the game viewport beneath a compact player strip. No document-style dashboard columns or scrolling card gallery."
+    },
+    {
+      "comment": 3,
+      "change": "Match approved portrait-card direction: detailed equestrian art, tall identity ribbon, ornate border, four vertically stacked movement rows, common illustrated back. Exact Blue Ocean specimen remains available in card inspection."
+    },
+    {
+      "comment": 4,
+      "change": "Demonstrate a six-face 3D die tumbling inside the infield, settling before a horse becomes selectable."
+    },
+    {
+      "comment": 5,
+      "change": "Remove race-summary/explanation block from gameplay. Keep rules reachable in menu."
+    },
+    {
+      "comment": 6,
+      "change": "Place all seven horse cards inside their board recesses, beside separate chip wells. Enlarge on inspection without moving the permanent card row off the board."
+    },
+    {
+      "comment": 7,
+      "change": "Top player strip shows rank and accumulated winnings. Highlight whose turn independently of rank. Use stable seats to prevent confusing position changes during turns."
+    }
+  ],
+  "cardLifecycle": {
+    "ready": "Face up and selectable only after the die result settles.",
+    "used": "After a horse's movement completes, animate its card to the shared ornate back. Preserve external number, identity color and moved indicator.",
+    "nextCycle": "After all unfinished horses have acted, flip eligible cards face up together. This is not tied to an individual player's next turn.",
+    "finished": "A finished horse remains unavailable. Display its placing on its cradle."
+  },
+  "motion": {
+    "dice": "Roll for approximately 1.35 seconds, then fly the settled die toward the viewer, align the rolled face directly forward, hold the symbol and name, and return to the board. The 2.7-second reveal has 0.65-second enlargement, 1.6-second reading hold, and 0.45-second return. Horse selection opens only after the reveal completes.",
+    "card": "Approximately 0.45–0.6 seconds with perspective and a visible edge; finish movement before flipping.",
+    "reducedMotion": "Short result crossfade and direct card-state changes.",
+    "diceReveal": {
+      "sequence": [
+        "rolling",
+        "revealing",
+        "selection"
+      ],
+      "durationMilliseconds": 2700,
+      "face": "The same six-face cube and exact theme artwork remain in use; rotate the resolved face toward the viewer without changing the result.",
+      "copy": "Large Traditional Chinese symbol name, English label, and 全桌擲骰結果.",
+      "input": "Horse selection and board interactions remain blocked during the reveal. Host menu and pause remain available.",
+      "pause": "Both the animation and its timer freeze, including during enlargement or return.",
+      "reducedMotion": "Show the resolved face and label without travel, zoom, or rotation; retain the full reading time.",
+      "accessibility": "Announce the symbol once via a live region. The decorative clone is hidden from assistive technology.",
+      "persistence": "The resolved result remains beside the board die through horse selection and as 上次擲出 after movement, until the next roll.",
+      "themes": "Royal Club, Imperial Porcelain and Nocturne each retain their own dice artwork and surrounding materials."
+    },
+    "horse": "The selected figurine moves clockwise with per-space interpolation and a small lift; approximately 110ms per space, bounded to 450–1800ms. The card flips after arrival. Respect pause and reduced-motion preferences."
+  },
+  "multiplayerIntent": {
+    "menu": "Local; does not stop the table.",
+    "pause": "Host requests a table-wide pause. Freeze turn input and bot scheduling; publish paused overlay to all players. Resume belongs to current host.",
+    "theme": "Host chooses; board, card stock/back, die and horse material remain a coherent set for everyone.",
+    "exit": "Confirm local departure; remaining table continues and existing host-transfer rules apply.",
+    "diceReveal": "When implementing live play, broadcast one server-resolved roll result with a unique roll event ID to every seated player and spectator. All clients display the same reveal, never roll locally to pick an outcome. Derive timing from shared phase state; a late/reconnecting viewer sees the current result immediately. Gate horse selection until the shared reveal phase ends. This design prototype demonstrates that presentation locally and does not send multiplayer events.",
+    "horseMovement": "Implementation must validate selection against shared turn state, move the chosen horse by the resolved card value, broadcast the destination once, and animate the same horse on every viewer. This prototype demonstrates that presentation using local position state."
+  },
+  "art": {
+    "directions": [
+      {
+        "id": "royal-club",
+        "reference": "../royal-turf-concepts/a-board.png",
+        "card": "../royal-turf-concepts/a-cards.png",
+        "character": "Burl walnut, emerald felt, ivory cards and fine brass."
+      },
+      {
+        "id": "imperial-porcelain",
+        "reference": "../royal-turf-concepts/b-board.png",
+        "card": "../royal-turf-concepts/b-cards.png",
+        "character": "Glazed ivory, ink-blue lacquer, cloud decoration and champagne detailing."
+      },
+      {
+        "id": "nocturne",
+        "reference": "../royal-turf-concepts/c-board.png",
+        "card": "../royal-turf-concepts/c-cards.png",
+        "character": "Obsidian, architectural metal inlays, dark portrait cards and faceted horses."
+      }
+    ],
+    "fidelity": "The original card source sheets contain only the Blue Ocean #04 specimen. Remaining mockup cards compose that portrait style with individual verified identifiers and values; distinct final artwork is not claimed complete.",
+    "scene": "Reference-guided static board renders have their baked-in horses removed. Seven individually positioned figurine sprites preserve the three material directions and animate over the exact 36-space SVG track. These are 3D-style renders and a local interaction preview, not movable mesh files or a live multiplayer game.",
+    "horseAssets": "horse-movement-art-manifest.json records the built-in image-generation prompts and all clean board / horse atlas files."
+  },
+  "approvalBoundary": "Review appearance and interaction design first. No production source, engine, worker or deployment changes in this task.",
+  "bettingWells": {
+    "purpose": "Each of the seven narrow wells belongs to its adjacent horse. It holds one separate betting chip from each participating player, up to six players.",
+    "identity": "Chip color and initials match player avatars, independent of horse color. Never collapse several players into an aggregate value.",
+    "sets": {
+      "basic": [
+        1,
+        1,
+        2
+      ],
+      "hidden": [
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    "limit": "Each player places at most one chip on each horse.",
+    "privacy": "During hidden betting, own values are visible; opposing chips show player initials on opaque backs. All values reveal at race settlement. A placed zero remains a visible token.",
+    "cardFlip": "Wagers stay in the well when the adjacent movement card flips.",
+    "preview": "Click any well or 查看下注 to inspect player-level wagers; 預覽結算揭注 previews public values. The default sample has three players with four chips each on distinct horses.",
+    "sources": [
+      "https://punchboardgame.pixnet.net/blog/posts/9573680628",
+      "https://www.groupsne.co.jp/products/bg/royalturf/index.html",
+      "https://www.rulespal.com/winners-circle/rulebook"
+    ]
+  },
+  "numberedTrack": {
+    "physicalSpaces": 36,
+    "primaryLabels": {
+      "from": 1,
+      "to": 36
+    },
+    "sharedStartingLabels": [
+      {
+        "space": 30,
+        "offset": -6
+      },
+      {
+        "space": 31,
+        "offset": -5
+      },
+      {
+        "space": 32,
+        "offset": -4
+      },
+      {
+        "space": 33,
+        "offset": -3
+      },
+      {
+        "space": 34,
+        "offset": -2
+      },
+      {
+        "space": 35,
+        "offset": -1
+      },
+      {
+        "space": 36,
+        "offset": 0
+      }
+    ],
+    "finishLine": "At the bottom left, between 36 / 0 and 1. Starting horses travel right-to-left toward this line.",
+    "direction": "Clockwise: from the bottom-left finish up the left-hand curve, left-to-right across the top, down the right-hand curve, then right-to-left across the starting row.",
+    "art": "The original painted divisions were removed from a derived copy of each approved theme backdrop; an SVG draws one consistent 36-space circuit and all labels.",
+    "scope": "Display geometry only. Does not change race completion or position rules in the production engine.",
+    "source": "User clarification: -6 through 0 overlap 30 through 36.",
+    "startingRowLeftToRight": [
+      "36 / 0",
+      "35 / -1",
+      "34 / -2",
+      "33 / -3",
+      "32 / -4",
+      "31 / -5",
+      "30 / -6"
+    ],
+    "checkpoint": {
+      "space": 18,
+      "appearance": "Highlight physical space 18 and add a small adjacent 18 領先點 / CHECKPOINT 18 plaque. Two infield arrows reinforce clockwise travel.",
+      "scope": "Design marker only; no checkpoint reward or gameplay rule is changed."
+    }
+  },
+  "payoutTable": {
+    "placement": "In the existing infield prize-table recess, for all three themes. Tap to enlarge.",
+    "heading": "每票獎金",
+    "columns": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5+"
+    ],
+    "columnMeaning": "Sum of betting values placed on the same horse, not the number of players.",
+    "rows": {
+      "first": [
+        500,
+        350,
+        250,
+        200,
+        150
+      ],
+      "second": [
+        350,
+        250,
+        200,
+        150,
+        100
+      ],
+      "third": [
+        250,
+        200,
+        150,
+        100,
+        100
+      ]
+    },
+    "payout": "Look up the per-unit amount by placing and total betting units; multiply by the player’s chip value. Zero does not receive a payout.",
+    "thirdRace": "Double the displayed per-unit amount.",
+    "privacy": "Static payout schedule only; hidden opposing chip values are not exposed through a live total.",
+    "edition": "Traditional Chinese board photograph. Third place / three units is 150 in this edition.",
+    "sources": [
+      "https://punchboardgame.pixnet.net/blog/posts/9573680628",
+      "https://pic.pimg.tw/punchboardgame/1692682299-1964584796-g_n.jpg"
+    ],
+    "localTranscription": "../../docs/observed-components.json"
+  },
+  "horseMovement": {
+    "trigger": "After the dice reveal finishes, click an eligible horse figurine or its card. Rolling alone never chooses or moves a horse.",
+    "distance": "Use the selected horse card’s value in the row matching the resolved dice symbol.",
+    "presentation": "Seven independent transparent horse figurines move over a clean board backdrop. The selected figurine advances clockwise one numbered space at a time; its shadow and subtle lift accompany the movement.",
+    "position": "Every horse retains its own accumulated position across turns, movement cycles and theme changes. Other horses keep their positions. Figures sharing a space receive small visual offsets.",
+    "initialState": "Fresh preview: all seven cards face up; positions from left to right are 0, -1, -2, -3, -4, -5, -6.",
+    "cardFlip": "A selected horse card flips only when its figurine has reached the destination. All seven acted cards reset together for the next movement cycle.",
+    "input": "Block additional selections and rolls during dice/reveal/movement. Both the horse and card have the same eligibility rules.",
+    "pause": "Freeze the actual figurine, step interpolation, lift and movement timer; resume from that exact point.",
+    "reducedMotion": "Set the figurine at its destination without travel or hopping, then perform the same card lifecycle.",
+    "scope": "Local design preview with a repeating circuit. Does not add live multiplayer movement, race settlement, or final verified edition rules."
+  }
+}

@@ -1,0 +1,1812 @@
+{
+  "ok": true,
+  "reports": [
+    {
+      "kind": "theme-viewport",
+      "viewport": "user",
+      "theme": "imperial-porcelain",
+      "before": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 0,
+            "left": "22.2168%",
+            "top": "58.7646%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "28.9551%",
+            "top": "61.1816%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "35.9049%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "43.3268%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "50.7487%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "58.3008%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "66.0156%",
+            "top": "61.4258%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          }
+        ]
+      },
+      "middle": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 3.056640076392903,
+            "left": "12.5828%",
+            "top": "44.1687%",
+            "hop": "0.11423342198910805cqw",
+            "moving": true,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "28.9551%",
+            "top": "61.1816%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "35.9049%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "43.3268%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "50.7487%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "58.3008%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "66.0156%",
+            "top": "61.4258%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          }
+        ]
+      },
+      "after": {
+        "positions": [
+          15,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 15,
+            "progress": 15,
+            "left": "50.1302%",
+            "top": "15.1367%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "28.9551%",
+            "top": "61.1816%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "35.9049%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "43.3268%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "50.7487%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "58.3008%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "66.0156%",
+            "top": "61.4258%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          }
+        ]
+      },
+      "sampleCount": 140,
+      "pauseTest": false
+    },
+    {
+      "kind": "theme-viewport",
+      "viewport": "user",
+      "theme": "royal-club",
+      "before": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 0,
+            "left": "27.0508%",
+            "top": "56.543%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "41.3086%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "48.5352%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "55.6966%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "62.8581%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "70.1823%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          }
+        ]
+      },
+      "middle": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 3.0488028953413977,
+            "left": "13.0891%",
+            "top": "48.1522%",
+            "hop": "0.1061474351409025cqw",
+            "moving": true,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "41.3086%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "48.5352%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "55.6966%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "62.8581%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "70.1823%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          }
+        ]
+      },
+      "after": {
+        "positions": [
+          15,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 15,
+            "progress": 15,
+            "left": "50.293%",
+            "top": "14.0137%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "41.3086%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "48.5352%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "55.6966%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "62.8581%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "70.1823%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          }
+        ]
+      },
+      "sampleCount": 270,
+      "pauseTest": true
+    },
+    {
+      "kind": "theme-viewport",
+      "viewport": "mobile",
+      "theme": "royal-club",
+      "before": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 0,
+            "left": "27.0508%",
+            "top": "56.543%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "41.3086%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "48.5352%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "55.6966%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "62.8581%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "70.1823%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          }
+        ]
+      },
+      "middle": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 3.0414889182466993,
+            "left": "13.106%",
+            "top": "48.196%",
+            "hop": "0.09793678389831352cqw",
+            "moving": true,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "41.3086%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "48.5352%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "55.6966%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "62.8581%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "70.1823%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          }
+        ]
+      },
+      "after": {
+        "positions": [
+          15,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 15,
+            "progress": 15,
+            "left": "50.293%",
+            "top": "14.0137%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "41.3086%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "48.5352%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "55.6966%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "62.8581%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "70.1823%",
+            "top": "56.7871%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-royal-club.png\")"
+          }
+        ]
+      },
+      "sampleCount": 146,
+      "pauseTest": false
+    },
+    {
+      "kind": "theme-viewport",
+      "viewport": "user",
+      "theme": "nocturne",
+      "before": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 0,
+            "left": "26.3997%",
+            "top": "57.2754%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "42.0247%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "49.7721%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "57.3568%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "64.974%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "72.6562%",
+            "top": "57.4951%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          }
+        ]
+      },
+      "middle": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 3.0507137491374325,
+            "left": "12.4611%",
+            "top": "49.203%",
+            "hop": "0.1081809930498896cqw",
+            "moving": true,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "42.0247%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "49.7721%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "57.3568%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "64.974%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "72.6562%",
+            "top": "57.4951%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          }
+        ]
+      },
+      "after": {
+        "positions": [
+          15,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 15,
+            "progress": 15,
+            "left": "50.6185%",
+            "top": "15.0879%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "42.0247%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "49.7721%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "57.3568%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "64.974%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "72.6562%",
+            "top": "57.4951%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          }
+        ]
+      },
+      "sampleCount": 146,
+      "pauseTest": false
+    },
+    {
+      "kind": "theme-viewport",
+      "viewport": "mobile",
+      "theme": "nocturne",
+      "before": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 0,
+            "left": "26.3997%",
+            "top": "57.2754%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "42.0247%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "49.7721%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "57.3568%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "64.974%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "72.6562%",
+            "top": "57.4951%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          }
+        ]
+      },
+      "middle": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 3.0520056981263215,
+            "left": "12.4581%",
+            "top": "49.1956%",
+            "hop": "0.10953229540685078cqw",
+            "moving": true,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "42.0247%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "49.7721%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "57.3568%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "64.974%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "72.6562%",
+            "top": "57.4951%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          }
+        ]
+      },
+      "after": {
+        "positions": [
+          15,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 15,
+            "progress": 15,
+            "left": "50.6185%",
+            "top": "15.0879%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "34.1797%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "42.0247%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "49.7721%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "57.3568%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "64.974%",
+            "top": "57.666%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "72.6562%",
+            "top": "57.4951%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-nocturne.png\")"
+          }
+        ]
+      },
+      "sampleCount": 147,
+      "pauseTest": false
+    },
+    {
+      "kind": "theme-viewport",
+      "viewport": "mobile",
+      "theme": "imperial-porcelain",
+      "before": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 0,
+            "left": "22.2168%",
+            "top": "58.7646%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "28.9551%",
+            "top": "61.1816%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "35.9049%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "43.3268%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "50.7487%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "58.3008%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "66.0156%",
+            "top": "61.4258%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          }
+        ]
+      },
+      "middle": {
+        "positions": [
+          0,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 0,
+            "progress": 3.04880289549196,
+            "left": "12.5859%",
+            "top": "44.2171%",
+            "hop": "0.10614743530282429cqw",
+            "moving": true,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "28.9551%",
+            "top": "61.1816%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "35.9049%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "43.3268%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "50.7487%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "58.3008%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "66.0156%",
+            "top": "61.4258%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          }
+        ]
+      },
+      "after": {
+        "positions": [
+          15,
+          -1,
+          -2,
+          -3,
+          -4,
+          -5,
+          -6
+        ],
+        "pieces": [
+          {
+            "id": 0,
+            "position": 15,
+            "progress": 15,
+            "left": "50.1302%",
+            "top": "15.1367%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 1,
+            "position": -1,
+            "progress": -1,
+            "left": "28.9551%",
+            "top": "61.1816%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 2,
+            "position": -2,
+            "progress": -2,
+            "left": "35.9049%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 3,
+            "position": -3,
+            "progress": -3,
+            "left": "43.3268%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 4,
+            "position": -4,
+            "progress": -4,
+            "left": "50.7487%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 5,
+            "position": -5,
+            "progress": -5,
+            "left": "58.3008%",
+            "top": "61.4746%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          },
+          {
+            "id": 6,
+            "position": -6,
+            "progress": -6,
+            "left": "66.0156%",
+            "top": "61.4258%",
+            "hop": "0cqw",
+            "moving": false,
+            "disabled": true,
+            "art": "url(\"http://127.0.0.1:4180/design/dashboard-v2/horse-sprites-imperial-porcelain.png\")"
+          }
+        ]
+      },
+      "sampleCount": 147,
+      "pauseTest": false
+    },
+    {
+      "kind": "all-seven-and-repeat",
+      "initiallyUsed": 0,
+      "steps": [
+        {
+          "step": 1,
+          "horse": 0,
+          "result": "cap",
+          "distance": 15,
+          "positions": [
+            15,
+            -1,
+            -2,
+            -3,
+            -4,
+            -5,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 2,
+          "horse": 1,
+          "result": "carrot",
+          "distance": 11,
+          "positions": [
+            15,
+            10,
+            -2,
+            -3,
+            -4,
+            -5,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 3,
+          "horse": 2,
+          "result": "head",
+          "distance": 3,
+          "positions": [
+            15,
+            10,
+            1,
+            -3,
+            -4,
+            -5,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 4,
+          "horse": 4,
+          "result": "shoe",
+          "distance": 13,
+          "positions": [
+            15,
+            10,
+            1,
+            -3,
+            9,
+            -5,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 5,
+          "horse": 3,
+          "result": "head",
+          "distance": 4,
+          "positions": [
+            15,
+            10,
+            1,
+            1,
+            9,
+            -5,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 6,
+          "horse": 5,
+          "result": "head",
+          "distance": 6,
+          "positions": [
+            15,
+            10,
+            1,
+            1,
+            9,
+            1,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 7,
+          "horse": 6,
+          "result": "cap",
+          "distance": 5,
+          "positions": [
+            15,
+            10,
+            1,
+            1,
+            9,
+            1,
+            -1
+          ],
+          "cycle": "2"
+        },
+        {
+          "step": 8,
+          "horse": 0,
+          "result": "carrot",
+          "distance": 8,
+          "positions": [
+            23,
+            10,
+            1,
+            1,
+            9,
+            1,
+            -1
+          ],
+          "cycle": "2"
+        }
+      ],
+      "final": [
+        23,
+        10,
+        1,
+        1,
+        9,
+        1,
+        -1
+      ],
+      "reducedMotionSamples": 466
+    }
+  ],
+  "issues": []
+}

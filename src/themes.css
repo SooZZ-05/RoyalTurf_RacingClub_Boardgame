@@ -1,0 +1,545 @@
+/* The room's selected material family is shared by the table, cards and die. */
+.app[data-board-theme] {
+  min-height: 100vh;
+  background: #f3f0e7;
+  color: var(--ink);
+  --muted: #747968;
+  --accent-soft: #e8eddf;
+  --button-ink: #faf7ed;
+}
+.app[data-board-theme='imperial-porcelain'] {
+  --green: #203958;
+  --ink: #203958;
+  --muted: #6c7887;
+  --gold: #a08c58;
+  --line: #d8dcdf;
+  --paper: #fffdf7;
+  --accent-soft: #e9edf2;
+  background: #f2f2ee;
+}
+.app[data-board-theme='nocturne'] {
+  --green: #dbdbd6;
+  --ink: #eeede6;
+  --muted: #adb0b6;
+  --gold: #c1bcb3;
+  --line: #414249;
+  --paper: #25282e;
+  --accent-soft: #353942;
+  --button-ink: #202329;
+  background: #1b1e23;
+}
+.app[data-board-theme]
+  :is(
+    .brand small,
+    .eyebrow,
+    .hero > p,
+    .hero-tags,
+    .field-label,
+    .entry-footnote,
+    .home-bottom,
+    footer,
+    .connection,
+    .setting-toggle small,
+    .deck-choice small,
+    .lobby-settings > p,
+    .race-summary > p,
+    .turn-panel p,
+    .move-note,
+    .muted-text,
+    .modal p,
+    .missing-list
+  ) {
+  color: var(--muted);
+}
+.app[data-board-theme]
+  :is(
+    .entry-panel,
+    .language-button,
+    .setting-toggle,
+    .seat,
+    .deck-choice button,
+    .secondary,
+    .add-seat
+  ) {
+  border-color: var(--line);
+}
+.app[data-board-theme] input:not([type='checkbox']) {
+  background: var(--paper);
+  color: var(--ink);
+  border-color: var(--line);
+}
+.app[data-board-theme] .bot-stepper > div {
+  background: var(--paper);
+  color: var(--ink);
+  border-color: var(--line);
+}
+.app[data-board-theme] .chips button {
+  background: var(--theme-card);
+  color: var(--theme-card-ink);
+  border-color: var(--theme-metal);
+  outline-color: var(--theme-metal);
+}
+.app[data-board-theme] .chips button.selected {
+  background: var(--accent-soft);
+  outline-color: var(--gold);
+}
+.app[data-board-theme] :is(.secondary, .modal) {
+  background: var(--paper);
+  color: var(--ink);
+}
+.app[data-board-theme] .primary {
+  background: var(--green);
+  color: var(--button-ink);
+}
+.app[data-board-theme] .primary:not(:disabled):hover {
+  background: var(--green);
+  filter: brightness(0.9);
+}
+.app[data-board-theme]
+  :is(
+    .secondary:not(:disabled):hover,
+    .deck-choice button.selected,
+    .tutorial-visual,
+    .variant-tag,
+    .seat b small
+  ) {
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+.app[data-board-theme] .edition-notice {
+  color: var(--gold);
+}
+.app[data-board-theme] .seat-avatar {
+  color: #1c2a24;
+  text-shadow: 0 0 3px #fff8;
+}
+.app[data-board-theme] .seat-avatar[style*='3f4044'] {
+  color: #fff;
+  text-shadow: none;
+}
+
+.theme-picker {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+.theme-picker-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 13px;
+}
+.theme-picker-heading > span:last-child {
+  color: var(--muted);
+  font-size: 9px;
+}
+.theme-picker-heading .eyebrow {
+  color: var(--ink);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+.theme-options {
+  display: grid;
+  gap: 7px;
+}
+.theme-options > button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 9px;
+  border-radius: 5px;
+  border: 1px solid var(--line);
+  text-align: left;
+  min-height: 65px;
+  color: var(--ink);
+  background: transparent;
+  transition:
+    border-color 0.15s,
+    background 0.15s;
+}
+.theme-options > button[aria-pressed='true'] {
+  border-color: var(--gold);
+  background: var(--accent-soft);
+  box-shadow: 0 0 0 1px var(--gold);
+}
+.theme-options > button:not(:disabled):hover {
+  border-color: var(--gold);
+}
+.theme-options > button:disabled {
+  opacity: 1;
+}
+.theme-option-copy {
+  flex: 1;
+  min-width: 0;
+}
+.theme-option-copy strong {
+  display: block;
+  font-family: var(--serif);
+  font-size: 12px;
+  font-weight: 600;
+}
+.theme-option-copy small {
+  display: block;
+  font-size: 8px;
+  color: var(--muted);
+  margin-top: 4px;
+  line-height: 1.6;
+}
+.theme-selected {
+  width: 13px;
+  font-size: 12px;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+.theme-miniature {
+  position: relative;
+  display: block;
+  width: 65px;
+  height: 46px;
+  flex-shrink: 0;
+  background: var(--theme-field);
+  border: 4px solid var(--theme-frame);
+  border-radius: 5px;
+  box-shadow:
+    0 2px 0 var(--theme-metal),
+    inset 0 0 0 1px var(--theme-metal);
+  transform: perspective(130px) rotateX(17deg);
+}
+.theme-mini-track {
+  position: absolute;
+  inset: 4px;
+  border: 4px solid var(--theme-track);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--theme-track-line);
+}
+.theme-mini-crest {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font:
+    12px Georgia,
+    serif;
+  color: var(--theme-metal);
+}
+.entry-panel .theme-picker {
+  padding: 0;
+  border: 0;
+  background: none;
+  margin: 20px 0 23px;
+}
+.entry-panel .theme-picker-heading > span:last-child {
+  display: none;
+}
+
+.tabletop[data-board-theme] {
+  background: var(--theme-scene);
+  box-shadow: inset 0 0 0 1px #0000000a;
+}
+.tabletop[data-board-theme] .board-caption {
+  color: var(--theme-card-ink);
+  background: var(--theme-card);
+  border: 1px solid var(--theme-metal);
+  border-radius: 20px;
+  padding: 7px 10px;
+  opacity: 0.94;
+}
+.tabletop[data-board-theme] .camera-controls button {
+  background: var(--theme-card);
+  color: var(--theme-card-ink);
+  border-color: var(--theme-metal);
+}
+.tabletop[data-board-theme] .flat-table {
+  background: var(--theme-field);
+  border-color: var(--theme-frame);
+  box-shadow: inset 0 0 0 2px var(--theme-metal);
+}
+.tabletop[data-board-theme] .flat-ring {
+  border-color: var(--theme-track);
+  outline-color: var(--theme-track-line);
+  box-shadow:
+    0 0 0 2px var(--theme-metal),
+    inset 0 0 0 2px var(--theme-metal);
+}
+.tabletop[data-board-theme] .flat-brand {
+  color: var(--theme-metal);
+}
+.tabletop[data-board-theme] .flat-horse {
+  box-shadow:
+    0 4px 0 var(--theme-metal),
+    0 7px 5px #0004;
+  border-color: var(--theme-metal);
+  border-radius: 50% 50% 35% 35%;
+}
+.tabletop[data-board-theme] .flat-horse > span {
+  color: #24372f;
+}
+.tabletop[data-board-theme] .flat-horse:nth-of-type(2) > span {
+  color: #f7f1e4;
+}
+.tabletop[data-board-theme] .flat-horse > b {
+  background: var(--theme-card);
+  color: var(--theme-card-ink);
+  border-color: var(--theme-metal);
+}
+
+.app[data-board-theme] .horse-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--theme-metal);
+  border-radius: 8px;
+  background: var(--theme-card);
+  color: var(--theme-card-ink);
+  padding: 13px 11px 10px;
+  box-shadow:
+    0 3px 0 color-mix(in srgb, var(--theme-metal) 55%, var(--theme-card)),
+    0 7px 18px #0000000b;
+}
+.app[data-board-theme] .horse-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 3px;
+  background: var(--horse-color);
+}
+.app[data-board-theme] .horse-card.actionable {
+  outline: 2px solid var(--theme-metal);
+  outline-offset: 2px;
+}
+.app[data-board-theme] .horse-card.actionable:hover {
+  background: var(--theme-card);
+  box-shadow:
+    0 5px 0 var(--theme-metal),
+    0 12px 22px #0002;
+}
+.app[data-board-theme] .horse-card.resting {
+  opacity: 0.7;
+}
+.horse-card-heading > span:nth-child(2) {
+  font-family: var(--serif);
+  font-size: 11px;
+}
+.horse-card-heading > small {
+  color: var(--theme-card-ink);
+  font-size: 8px;
+}
+.horse-disc {
+  color: #17251e;
+  border: 1px solid var(--theme-metal);
+}
+.horse-card:nth-child(2) .horse-disc {
+  color: white;
+}
+.horse-card-art {
+  position: relative;
+  margin-top: 6px;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid color-mix(in srgb, var(--theme-metal) 45%, transparent);
+}
+.horse-portrait {
+  height: 100%;
+  width: 100%;
+  max-width: 210px;
+}
+.horse-card-art > span {
+  position: absolute;
+  right: 0;
+  top: 6px;
+  font:
+    10px Georgia,
+    serif;
+  letter-spacing: 0.12em;
+  color: var(--theme-card-ink);
+  opacity: 0.6;
+}
+.horse-moves {
+  gap: 4px;
+  padding: 12px 0;
+}
+.horse-moves > span {
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+  flex: 1;
+}
+.horse-moves > span + span {
+  border-left: 1px solid color-mix(in srgb, var(--theme-metal) 35%, transparent);
+}
+.horse-moves b {
+  font:
+    22px/1 Georgia,
+    serif;
+  color: var(--theme-card-ink);
+}
+.game-symbol {
+  width: 24px;
+  height: 24px;
+  display: block;
+  flex-shrink: 0;
+}
+.horse-moves .game-symbol {
+  width: 20px;
+  height: 20px;
+  color: var(--theme-card-ink);
+}
+.app[data-board-theme] .horse-card-footer {
+  border-color: color-mix(in srgb, var(--theme-metal) 40%, transparent);
+}
+.app[data-board-theme] .horse-card-footer > span {
+  color: var(--theme-card-ink);
+  opacity: 0.78;
+}
+.app[data-board-theme='nocturne'] .horse-card-art {
+  background: radial-gradient(ellipse at bottom, #575d673b, transparent 75%);
+}
+.app[data-board-theme='imperial-porcelain'] .horse-card-art {
+  background: radial-gradient(ellipse at bottom, #25486a15, transparent 75%);
+}
+.app[data-board-theme='nocturne'] .horse-card {
+  border-radius: 3px;
+}
+
+.symbol-die {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  margin: 12px 12px 2px 0;
+  flex-shrink: 0;
+  --symbol-cutout: var(--theme-die);
+  filter: drop-shadow(3px 6px 3px #0002);
+}
+.symbol-die > div {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  color: var(--theme-die-ink);
+  background: var(--theme-die);
+  border: 1px solid var(--theme-metal);
+}
+.die-front {
+  inset: 0;
+  border-radius: 7px;
+  box-shadow:
+    inset 0 0 0 3px var(--theme-frame),
+    inset 0 0 0 4px var(--theme-metal);
+  z-index: 2;
+}
+.die-front .game-symbol {
+  width: 32px;
+  height: 32px;
+}
+.die-top {
+  width: 54px;
+  height: 16px;
+  left: 5px;
+  top: -13px;
+  transform: skewX(-36deg);
+  border-radius: 6px 5px 0 0;
+  filter: brightness(1.2);
+}
+.die-top .game-symbol {
+  width: 16px;
+  height: 12px;
+  opacity: 0.8;
+}
+.die-side {
+  width: 11px;
+  height: 53px;
+  left: 52px;
+  top: -6px;
+  transform: skewY(-53deg);
+  border-radius: 0 5px 5px 0;
+  filter: brightness(0.8);
+}
+.die-side .game-symbol {
+  width: 8px;
+  height: 24px;
+}
+.symbol-die.rolling {
+  animation: theme-die-roll 0.3s ease-in-out infinite alternate;
+}
+@keyframes theme-die-roll {
+  from {
+    transform: rotate(-8deg) translateY(-3px);
+  }
+  to {
+    transform: rotate(8deg) translateY(0);
+  }
+}
+
+@media (max-width: 760px) {
+  .room-sidebar > .theme-picker {
+    grid-column: 1 / -1;
+    padding: 16px;
+  }
+  .room-sidebar .theme-options {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 7px;
+  }
+  .room-sidebar .theme-options > button {
+    flex-direction: column;
+    gap: 7px;
+    text-align: center;
+    padding: 10px 5px;
+    position: relative;
+  }
+  .room-sidebar .theme-option-copy strong {
+    font-size: 10px;
+  }
+  .room-sidebar .theme-option-copy small {
+    display: none;
+  }
+  .room-sidebar .theme-selected {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+  }
+  .theme-picker-heading > span:last-child {
+    font-size: 8px;
+  }
+  .horse-card-art {
+    height: 62px;
+  }
+  .horse-moves b {
+    font-size: 22px;
+  }
+  .app[data-board-theme] .horse-card {
+    padding: 12px 9px 9px;
+  }
+  .symbol-die {
+    width: 43px;
+    height: 43px;
+    margin-top: 10px;
+  }
+  .die-front .game-symbol {
+    width: 26px;
+    height: 26px;
+  }
+  .die-top {
+    width: 43px;
+    height: 12px;
+    top: -10px;
+    left: 4px;
+  }
+  .die-side {
+    height: 42px;
+    left: 42px;
+    width: 8px;
+    top: -5px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .symbol-die.rolling {
+    animation: none;
+  }
+  .theme-options > button {
+    transition: none;
+  }
+}

@@ -1,0 +1,841 @@
+{
+  "id": "royal-turf-published-decks",
+  "version": "1.2.0-source-backed",
+  "verified": false,
+  "sourceBacked": true,
+  "verification": {
+    "reviewer": "Two-pass physical-card transcription and cross-edition sample comparison; no claim of complete Chinese-manual certification",
+    "date": "2026-10-08",
+    "sources": [
+      "https://punchboardgame.pixnet.net/blog/posts/9573680628",
+      "https://pic.pimg.tw/punchboardgame/1692682299-1964584796-g_n.jpg",
+      "https://pic.pimg.tw/punchboardgame/1692682311-1895394351-g_n.jpg",
+      "https://pic.pimg.tw/punchboardgame/1692682299-3046323906-g_n.jpg",
+      "https://boardgamegeek.com/image/144351/winners-circle",
+      "https://boardgamegeek.com/image/130336/winners-circle",
+      "https://boardgamegeek.com/image/3690533/winners-circle",
+      "https://boardgamegeek.com/image/3159403/winners-circle",
+      "https://boardgamegeek.com/image/3159404/winners-circle"
+    ]
+  },
+  "cards": [
+    {
+      "id": "published-base-0-0",
+      "deck": "base",
+      "horse": 0,
+      "names": {
+        "zh-Hant": "白雪公主",
+        "en": "Snow White"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 15,
+        "carrot": 8,
+        "shoe": 4
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-0-1",
+      "deck": "base",
+      "horse": 0,
+      "names": {
+        "zh-Hant": "白雪公主",
+        "en": "Snow White"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 8,
+        "carrot": 9,
+        "shoe": 10
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-0-2",
+      "deck": "base",
+      "horse": 0,
+      "names": {
+        "zh-Hant": "白雪公主",
+        "en": "Snow White"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 3,
+        "carrot": 12,
+        "shoe": 12
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-1-0",
+      "deck": "base",
+      "horse": 1,
+      "names": {
+        "zh-Hant": "黑色傳說",
+        "en": "Black Story"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 14,
+        "carrot": 1,
+        "shoe": 9
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-1-1",
+      "deck": "base",
+      "horse": 1,
+      "names": {
+        "zh-Hant": "黑色傳說",
+        "en": "Black Story"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 5,
+        "carrot": 11,
+        "shoe": 8
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-1-2",
+      "deck": "base",
+      "horse": 1,
+      "names": {
+        "zh-Hant": "黑色傳說",
+        "en": "Black Story"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 9,
+        "carrot": 8,
+        "shoe": 7
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-2-0",
+      "deck": "base",
+      "horse": 2,
+      "names": {
+        "zh-Hant": "赤紅地毯",
+        "en": "Red Carpet"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 9,
+        "carrot": 5,
+        "shoe": 7
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-2-1",
+      "deck": "base",
+      "horse": 2,
+      "names": {
+        "zh-Hant": "赤紅地毯",
+        "en": "Red Carpet"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 10,
+        "carrot": 10,
+        "shoe": 1
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-2-2",
+      "deck": "base",
+      "horse": 2,
+      "names": {
+        "zh-Hant": "赤紅地毯",
+        "en": "Red Carpet"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 1,
+        "carrot": 5,
+        "shoe": 15
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-3-0",
+      "deck": "base",
+      "horse": 3,
+      "names": {
+        "zh-Hant": "湛藍海洋",
+        "en": "Blue Ocean"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 10,
+        "carrot": 7,
+        "shoe": 1
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-3-1",
+      "deck": "base",
+      "horse": 3,
+      "names": {
+        "zh-Hant": "湛藍海洋",
+        "en": "Blue Ocean"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 1,
+        "carrot": 13,
+        "shoe": 4
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-3-2",
+      "deck": "base",
+      "horse": 3,
+      "names": {
+        "zh-Hant": "湛藍海洋",
+        "en": "Blue Ocean"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 7,
+        "carrot": 3,
+        "shoe": 8
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-4-0",
+      "deck": "base",
+      "horse": 4,
+      "names": {
+        "zh-Hant": "金黃猛虎",
+        "en": "Yellow Tiger"
+      },
+      "moves": {
+        "head": 5,
+        "cap": 1,
+        "carrot": 1,
+        "shoe": 13
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-4-1",
+      "deck": "base",
+      "horse": 4,
+      "names": {
+        "zh-Hant": "金黃猛虎",
+        "en": "Yellow Tiger"
+      },
+      "moves": {
+        "head": 5,
+        "cap": 6,
+        "carrot": 7,
+        "shoe": 2
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-4-2",
+      "deck": "base",
+      "horse": 4,
+      "names": {
+        "zh-Hant": "金黃猛虎",
+        "en": "Yellow Tiger"
+      },
+      "moves": {
+        "head": 5,
+        "cap": 8,
+        "carrot": 1,
+        "shoe": 6
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-5-0",
+      "deck": "base",
+      "horse": 5,
+      "names": {
+        "zh-Hant": "綠貝雷帽",
+        "en": "Green Beret"
+      },
+      "moves": {
+        "head": 6,
+        "cap": 1,
+        "carrot": 10,
+        "shoe": 1
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-5-1",
+      "deck": "base",
+      "horse": 5,
+      "names": {
+        "zh-Hant": "綠貝雷帽",
+        "en": "Green Beret"
+      },
+      "moves": {
+        "head": 6,
+        "cap": 6,
+        "carrot": 4,
+        "shoe": 2
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-5-2",
+      "deck": "base",
+      "horse": 5,
+      "names": {
+        "zh-Hant": "綠貝雷帽",
+        "en": "Green Beret"
+      },
+      "moves": {
+        "head": 6,
+        "cap": 2,
+        "carrot": 2,
+        "shoe": 8
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-6-0",
+      "deck": "base",
+      "horse": 6,
+      "names": {
+        "zh-Hant": "橘子汽水",
+        "en": "Orangena"
+      },
+      "moves": {
+        "head": 7,
+        "cap": 1,
+        "carrot": 1,
+        "shoe": 7
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-6-1",
+      "deck": "base",
+      "horse": 6,
+      "names": {
+        "zh-Hant": "橘子汽水",
+        "en": "Orangena"
+      },
+      "moves": {
+        "head": 7,
+        "cap": 3,
+        "carrot": 3,
+        "shoe": 3
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-base-6-2",
+      "deck": "base",
+      "horse": 6,
+      "names": {
+        "zh-Hant": "橘子汽水",
+        "en": "Orangena"
+      },
+      "moves": {
+        "head": 7,
+        "cap": 5,
+        "carrot": 3,
+        "shoe": 1
+      },
+      "evidence": "https://boardgamegeek.com/image/144351/winners-circle — full21-card photograph; head-value family mapped to SNE colour/name. Known Japanese/Chinese samples cross-checked."
+    },
+    {
+      "id": "published-historical-alsab",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Alsab",
+        "en": "Alsab"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 6,
+        "carrot": 12,
+        "shoe": 9
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-armed",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "全副武裝",
+        "en": "Armed"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 4,
+        "carrot": 2,
+        "shoe": 12
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-assault",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Assault",
+        "en": "Assault"
+      },
+      "moves": {
+        "head": 5,
+        "cap": 1,
+        "carrot": 1,
+        "shoe": 13
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-busher",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "新晉球手",
+        "en": "Busher"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 1,
+        "carrot": 16,
+        "shoe": 1
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-secretariat",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Secretariat",
+        "en": "Secretariat"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 7,
+        "carrot": 5,
+        "shoe": 6
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle ; https://boardgamegeek.com/image/3690533/winners-circle — published rename from Challedon"
+    },
+    {
+      "id": "published-historical-citation",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Citation",
+        "en": "Citation"
+      },
+      "moves": {
+        "head": 7,
+        "cap": 3,
+        "carrot": 3,
+        "shoe": 3
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-colin",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Colin",
+        "en": "Colin"
+      },
+      "moves": {
+        "head": 6,
+        "cap": 5,
+        "carrot": 6,
+        "shoe": 1
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-seabiscuit",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Seabiscuit",
+        "en": "Seabiscuit"
+      },
+      "moves": {
+        "head": 7,
+        "cap": 1,
+        "carrot": 5,
+        "shoe": 3
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle ; https://boardgamegeek.com/image/3690533/winners-circle — published rename from Count Fleet"
+    },
+    {
+      "id": "published-historical-devil-diver",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "潛水鳥",
+        "en": "Devil Diver"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 14,
+        "carrot": 1,
+        "shoe": 9
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-discovery",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Discovery",
+        "en": "Discovery"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 10,
+        "carrot": 7,
+        "shoe": 1
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-equipoise",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Equipoise",
+        "en": "Equipoise"
+      },
+      "moves": {
+        "head": 6,
+        "cap": 5,
+        "carrot": 3,
+        "shoe": 4
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-exterminator",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Exterminator",
+        "en": "Exterminator"
+      },
+      "moves": {
+        "head": 5,
+        "cap": 6,
+        "carrot": 7,
+        "shoe": 2
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-gallant-fox",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Gallant Fox",
+        "en": "Gallant Fox"
+      },
+      "moves": {
+        "head": 5,
+        "cap": 8,
+        "carrot": 3,
+        "shoe": 4
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-gallorette",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Gallorette",
+        "en": "Gallorette"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 9,
+        "carrot": 5,
+        "shoe": 7
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-grey-lag",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Grey Lag",
+        "en": "Grey Lag"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 4,
+        "carrot": 12,
+        "shoe": 8
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-man-o-war",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Man o' War",
+        "en": "Man o' War"
+      },
+      "moves": {
+        "head": 7,
+        "cap": 4,
+        "carrot": 4,
+        "shoe": 1
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-old-rosebud",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Old Rosebud",
+        "en": "Old Rosebud"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 10,
+        "carrot": 9,
+        "shoe": 8
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-phar-lap",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Phar Lap",
+        "en": "Phar Lap"
+      },
+      "moves": {
+        "head": 6,
+        "cap": 3,
+        "carrot": 2,
+        "shoe": 7
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-regret",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Regret",
+        "en": "Regret"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 20,
+        "carrot": 4,
+        "shoe": 3
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-sir-barton",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Sir Barton",
+        "en": "Sir Barton"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 10,
+        "carrot": 10,
+        "shoe": 1
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-stymie",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "從中作梗",
+        "en": "Stymie"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 12,
+        "carrot": 4,
+        "shoe": 5
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-sysonby",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Sysonby",
+        "en": "Sysonby"
+      },
+      "moves": {
+        "head": 5,
+        "cap": 4,
+        "carrot": 5,
+        "shoe": 6
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-top-flight",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "衝上雲霄",
+        "en": "Top Flight"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 3,
+        "carrot": 12,
+        "shoe": 12
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-twenty-grand",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Twenty Grand",
+        "en": "Twenty Grand"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 1,
+        "carrot": 5,
+        "shoe": 15
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-twilight-tear",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "暮光之淚",
+        "en": "Twilight Tear"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 9,
+        "carrot": 8,
+        "shoe": 7
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-war-admiral",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "War Admiral",
+        "en": "War Admiral"
+      },
+      "moves": {
+        "head": 7,
+        "cap": 1,
+        "carrot": 1,
+        "shoe": 7
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-whirlaway",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "Whirlaway",
+        "en": "Whirlaway"
+      },
+      "moves": {
+        "head": 6,
+        "cap": 1,
+        "carrot": 10,
+        "shoe": 1
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    },
+    {
+      "id": "published-historical-zev",
+      "deck": "historical",
+      "horse": null,
+      "names": {
+        "zh-Hant": "法律顧問",
+        "en": "Zev"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 6,
+        "carrot": 6,
+        "shoe": 12
+      },
+      "evidence": "https://boardgamegeek.com/image/130336/winners-circle"
+    }
+  ],
+  "rules": {
+    "trackLength": 36,
+    "finishDistance": 37,
+    "paceDistance": 18,
+    "payout": [
+      [500, 350, 250, 200, 150],
+      [350, 250, 200, 150, 100],
+      [250, 200, 150, 100, 100]
+    ],
+    "paceBonus": 100,
+    "lastPenalty": 100,
+    "paceRequiresPodium": false,
+    "lastTie": "all",
+    "penaltyAfterWinnings": true,
+    "laterStarter": "totalMoney",
+    "sharedVictory": true,
+    "evidence": {
+      "trackLength": "https://pic.pimg.tw/punchboardgame/1692682299-1964584796-g_n.jpg",
+      "finishDistance": "https://punchboardgame.pixnet.net/blog/posts/9573680628 — complete lap then cross the0/36→1finish boundary",
+      "paceDistance": "https://pic.pimg.tw/punchboardgame/1692682299-1964584796-g_n.jpg",
+      "payout": "https://pic.pimg.tw/punchboardgame/1692682299-1964584796-g_n.jpg",
+      "paceRequiresPodium": "https://punchboardgame.pixnet.net/blog/posts/9573680628 — checkpoint holder pays100per betting unit; no podium condition in the selected Chinese reference",
+      "lastTie": "Digital convention for the underspecified crowded-field tie: charge all horses sharing the rearmost progress. This exception is disclosed in the interface, not claimed as verified Chinese manual text.",
+      "penaltyAfterWinnings": "https://www.rulespal.com/winners-circle/rulebook — pay prizes and bonus before capped last-place loss",
+      "laterStarter": "https://www.rulespal.com/winners-circle/rulebook — highest accumulated money starts; select randomly among ties",
+      "sharedVictory": "https://anboard-games.com/games/royal-turf/ — equal final balances share victory",
+      "deckHandling": "https://www.punchboardgame.com/products/皇家賽馬場-winners-circle-繁體中文版-rk知名作品新版 —21base profiles, used7discarded after each race; historical deck uses28printed profiles",
+      "occupancy": "https://punchboardgame.pixnet.net/blog/posts/9573680628 — occupied destination falls back to the first empty cell; passing and zero-distance choices allowed"
+    }
+  },
+  "missing": [
+    "Chinese historical names not visible in the source use their printed English names.",
+    "Crowded-field tied-last exception remains an explicitly disclosed digital convention."
+  ]
+}

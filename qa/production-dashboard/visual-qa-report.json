@@ -1,0 +1,141 @@
+{
+  "screens": [
+    {
+      "viewport": {
+        "width": 953,
+        "height": 924
+      },
+      "theme": "royal-club",
+      "metrics": {
+        "width": 953,
+        "scrollWidth": 953,
+        "height": 924,
+        "scrollHeight": 924,
+        "cards": 7,
+        "trackCells": 36,
+        "horsePieces": 7,
+        "images": [],
+        "boardTop": 188.671875,
+        "topbarBottom": 88,
+        "metaBottom": 121,
+        "turnBottom": 524.234375
+      },
+      "card": 1
+    },
+    {
+      "viewport": {
+        "width": 953,
+        "height": 924
+      },
+      "theme": "imperial-porcelain",
+      "metrics": {
+        "width": 953,
+        "scrollWidth": 953,
+        "height": 924,
+        "scrollHeight": 924,
+        "cards": 7,
+        "trackCells": 36,
+        "horsePieces": 7,
+        "images": [],
+        "boardTop": 188.671875,
+        "topbarBottom": 88,
+        "metaBottom": 121,
+        "turnBottom": 524.234375
+      },
+      "card": 1
+    },
+    {
+      "viewport": {
+        "width": 953,
+        "height": 924
+      },
+      "theme": "nocturne",
+      "metrics": {
+        "width": 953,
+        "scrollWidth": 953,
+        "height": 924,
+        "scrollHeight": 924,
+        "cards": 7,
+        "trackCells": 36,
+        "horsePieces": 7,
+        "images": [],
+        "boardTop": 188.671875,
+        "topbarBottom": 88,
+        "metaBottom": 121,
+        "turnBottom": 524.234375
+      },
+      "card": 1
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "royal-club",
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "cards": 7,
+        "trackCells": 36,
+        "horsePieces": 7,
+        "images": [],
+        "boardTop": 163,
+        "topbarBottom": 132,
+        "metaBottom": 163,
+        "turnBottom": 554.6875
+      },
+      "card": 1
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "imperial-porcelain",
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "cards": 7,
+        "trackCells": 36,
+        "horsePieces": 7,
+        "images": [],
+        "boardTop": 163,
+        "topbarBottom": 132,
+        "metaBottom": 163,
+        "turnBottom": 554.6875
+      },
+      "card": 1
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "nocturne",
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 844,
+        "scrollHeight": 844,
+        "cards": 7,
+        "trackCells": 36,
+        "horsePieces": 7,
+        "images": [],
+        "boardTop": 163,
+        "topbarBottom": 132,
+        "metaBottom": 163,
+        "turnBottom": 554.6875
+      },
+      "card": 1
+    }
+  ],
+  "pageErrors": [],
+  "errors": [],
+  "failures": [],
+  "room": "4J5B3RJA",
+  "pauseResume": "passed"
+}

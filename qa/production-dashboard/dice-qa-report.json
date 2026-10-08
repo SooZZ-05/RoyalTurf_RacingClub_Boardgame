@@ -1,0 +1,26 @@
+{
+  "errors": [],
+  "screens": [
+    {
+      "theme": "royal-club",
+      "symbol": "carrot",
+      "readable": "全桌擲骰結果 · DICE RESULT\n紅蘿蔔\n\nCARROT\n\n選擇一匹尚未行動的馬 · Choose an available horse",
+      "horseId": "0",
+      "flipped": true
+    },
+    {
+      "theme": "imperial-porcelain",
+      "symbol": "cap",
+      "readable": "全桌擲骰結果 · DICE RESULT\n騎師帽\n\nCAP\n\n選擇一匹尚未行動的馬 · Choose an available horse",
+      "horseId": "1",
+      "flipped": true
+    },
+    {
+      "theme": "nocturne",
+      "symbol": "carrot",
+      "readable": "全桌擲骰結果 · DICE RESULT\n紅蘿蔔\n\nCARROT\n\n選擇一匹尚未行動的馬 · Choose an available horse",
+      "horseId": "2",
+      "flipped": true
+    }
+  ]
+}

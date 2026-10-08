@@ -1,0 +1,26 @@
+.numbered-track{position:absolute;inset:0;width:100%;height:100%;z-index:1;overflow:visible;pointer-events:none}
+.track-divider{stroke:#907750;stroke-width:1.5;opacity:.88}
+.track-number{fill:#453a29;font-family:Georgia,'Noto Serif TC',serif;font-size:24px;font-weight:500;paint-order:stroke fill;stroke:#f5ead650;stroke-width:.7px}
+.track-number-start{font-size:22px;font-weight:600}
+.track-start-alias{font-size:17px;font-weight:400;fill:#6b5137}
+body[data-theme='imperial-porcelain'] .track-number{fill:#183752;stroke:#fff9e750}
+body[data-theme='imperial-porcelain'] .track-start-alias{fill:#555c64}
+body[data-theme='imperial-porcelain'] .track-divider{stroke:#a58c5b}
+body[data-theme='nocturne'] .track-number{fill:#222b32;stroke:#eee6d550}
+body[data-theme='nocturne'] .track-start-alias{fill:#292725;font-weight:600;stroke:#eee6d5;stroke-width:1.8px;paint-order:stroke fill}
+body[data-theme='nocturne'] .track-divider{stroke:#675f51}
+.track-checkpoint-cell{fill:#c6a15340;stroke:#9c783a;stroke-width:2.5}
+.checkpoint-diamond{fill:#d8ba7a;stroke:#75613e;stroke-width:1}
+.checkpoint-plate{fill:#113b2deb;stroke:#c9ab6c;stroke-width:1.2}
+.checkpoint-title{fill:#ead8ad;font:500 17px Georgia,'Noto Serif TC',serif;letter-spacing:1.5px}
+.checkpoint-caption{fill:#c6ae7e;font:9px Georgia,serif;letter-spacing:2px}
+.track-direction-arrow{fill:none;stroke:#dbc28e;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;opacity:.8}
+body[data-theme='imperial-porcelain'] .checkpoint-plate{fill:#f0e8d9ee;stroke:#967b44}
+body[data-theme='imperial-porcelain'] .checkpoint-title{fill:#1e3e55}
+body[data-theme='imperial-porcelain'] .checkpoint-caption{fill:#685738}
+body[data-theme='imperial-porcelain'] .track-direction-arrow{stroke:#526372}
+body[data-theme='nocturne'] .track-checkpoint-cell{fill:#9b3c4540;stroke:#67444a}
+body[data-theme='nocturne'] .checkpoint-plate{fill:#211e21f2;stroke:#c7b491}
+body[data-theme='nocturne'] .checkpoint-title{fill:#ede2cd}
+body[data-theme='nocturne'] .checkpoint-caption{fill:#c7bca8}
+body[data-theme='nocturne'] .track-direction-arrow{stroke:#d6cbb4}

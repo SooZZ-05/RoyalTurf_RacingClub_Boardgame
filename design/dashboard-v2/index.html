@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>皇家賽馬場 · 全屏棋盤設計預覽</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="betting.css">
+  <link rel="stylesheet" href="payout.css">
+  <link rel="stylesheet" href="track.css">
+  <link rel="stylesheet" href="horses.css">
+  <link rel="stylesheet" href="dice-reveal.css">
+</head>
+<body data-theme="royal-club">
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="皇家賽馬場"><span class="brand-mark">♞</span><span>皇家賽馬場<small>ROYAL TURF</small></span></a>
+    <div class="scoreboard" aria-label="玩家獎金排名">
+      <div class="player"><span class="rank">01</span><span class="avatar">J</span><span class="player-name">Jasmine<small>累計獎金</small></span><strong>$850</strong></div>
+      <div class="player active"><span class="rank">02</span><span class="avatar">Z</span><span class="player-name">你 · 桌主<small class="turn-label">你的回合</small></span><strong>$600</strong></div>
+      <div class="player"><span class="rank">03</span><span class="avatar">A</span><span class="player-name">Arthur<small>累計獎金</small></span><strong>$350</strong></div>
+    </div>
+    <button class="menu-button" id="menu-toggle" aria-expanded="false" aria-controls="game-menu"><span>☰</span> 選單</button>
+  </header>
+  <main class="table-stage" aria-label="全屏棋盤設計預覽">
+    <div class="table-meta"><span class="preview-badge">設計預覽</span><span>第 2 場 / 3 <i>·</i> <span id="theme-name">皇家俱樂部</span></span><span id="bet-preview-mode" class="bet-mode-label">暗注預覽</span><span class="room-number">TABLE 008</span></div>
+    <div class="board-wrap">
+      <div class="board-scene" id="board-scene">
+        <img class="board-backdrop" id="board-backdrop" src="royal-club-empty-board.png" alt="皇家俱樂部：胡桃木邊框、翡翠綠賽道內場與七個嵌入式卡槽">
+        <section class="infield-action" aria-label="回合操作">
+          <div class="turn-eyebrow"><span class="live-dot"></span> YOUR TURN <span class="cycle-label">第 <b id="cycle-number">1</b> 輪</span></div>
+          <h1 id="action-title">輪到你，擲骰吧</h1>
+          <p id="action-subtitle">讓下一步，成為致勝的一步。</p>
+          <div class="die-action">
+            <button class="die-area" id="die-button" aria-label="擲骰示範">
+              <span class="die-shadow"></span><span class="dice" id="dice">
+                <span class="die-face front" data-symbol="head"></span><span class="die-face back" data-symbol="head"></span><span class="die-face right" data-symbol="cap"></span><span class="die-face left" data-symbol="head"></span><span class="die-face top" data-symbol="carrot"></span><span class="die-face bottom" data-symbol="shoe"></span>
+              </span>
+            </button>
+            <div class="roll-copy"><button class="primary-button" id="roll-button">擲骰 <span>↗</span></button><span class="result-text" id="result-text">點擊骰子，開始你的回合</span></div>
+          </div>
+        </section>
+        <div class="cards-rail" id="cards-rail" aria-label="棋盤內的七張賽馬卡"></div>
+      </div>
+    </div>
+    <footer class="table-footer"><span id="table-hint">擲骰後，點選賽馬或卡牌前進。<span class="wide-only"> 已行動的馬會翻至卡背。</span></span><span class="footer-actions"><button id="inspect-bets">查看下注 <span>↗</span></button><button id="inspect-blue">放大卡牌 <span>↗</span></button></span></footer>
+    <div class="preview-note">互動設計樣稿 · 排名與操作皆為示範，未連接實際遊戲</div>
+  </main>
+  <div id="dice-reveal" class="dice-reveal" hidden aria-hidden="true">
+    <div class="dice-reveal-scrim"></div>
+    <div class="dice-reveal-content">
+      <div class="reveal-die-stage"><div class="reveal-flying-die"><div class="reveal-cube"></div></div></div>
+      <div class="reveal-copy"><span class="reveal-eyebrow">全桌擲骰結果</span><h2 id="reveal-symbol-name"></h2><p id="reveal-symbol-en"></p><span class="reveal-next">看清結果後，選擇賽馬</span></div>
+    </div>
+  </div>
+  <p id="dice-announcement" class="payout-visually-hidden" role="status" aria-live="polite" aria-atomic="true"></p>
+  <aside class="game-menu" id="game-menu" hidden>
+    <div class="menu-heading"><span>桌上選單<small>TABLE CONTROLS</small></span><button id="menu-close" aria-label="關閉選單">×</button></div>
+    <button class="menu-row" id="pause-button"><span>Ⅱ</span><span>暫停遊戲<small>全桌暫停 · 桌主控制</small></span><span>↗</span></button>
+    <div class="theme-heading">棋盤主題 <span>全桌共用 · 桌主控制</span></div>
+    <div class="theme-choices">
+      <button class="theme-choice selected" data-theme="royal-club"><span class="theme-thumb a"></span><span>皇家俱樂部<small>胡桃木 · 翡翠綠 · 黃銅</small></span><i>✓</i></button>
+      <button class="theme-choice" data-theme="imperial-porcelain"><span class="theme-thumb b"></span><span>御瓷雅苑<small>白瓷 · 墨藍 · 香檳金</small></span><i>✓</i></button>
+      <button class="theme-choice" data-theme="nocturne"><span class="theme-thumb c"></span><span>夜幕賽會<small>黑曜石 · 鉑金 · 酒紅</small></span><i>✓</i></button>
+    </div>
+    <button class="menu-row subtle" id="reference-button"><span>▧</span><span>原始設計參考<small>棋盤 · 卡牌 · 賽馬 · 骰子</small></span><span>↗</span></button>
+    <button class="menu-row exit-row" id="exit-button"><span>↪</span><span>離開遊戲</span><span>↗</span></button>
+    <p class="menu-footnote">開啟選單不會自動暫停遊戲。</p>
+  </aside>
+  <div class="menu-scrim" id="menu-scrim" hidden></div>
+  <div class="pause-overlay" id="pause-overlay" hidden><div><span class="pause-icon">Ⅱ</span><span class="eyebrow">TABLE PAUSED</span><h2>桌主已暫停遊戲</h2><p>棋盤與回合停留在此刻。</p><button class="primary-button" id="resume-button">繼續遊戲 <span>↗</span></button><small>設計預覽 · 本地暫停示範</small></div></div>
+  <dialog id="inspect-dialog" class="inspect-dialog"><button class="dialog-close" aria-label="關閉卡牌">×</button><div class="inspect-layout"><div id="large-card"></div><div class="inspect-description"><span class="eyebrow">HORSE PROFILE</span><h2 id="inspect-title"></h2><p id="inspect-state"></p><p>原圖的馬匹肖像、縱向數值排版、金屬細框與共同卡背，保留在棋盤的每個卡槽。</p><div class="inspect-nav" id="inspect-nav"></div><button class="text-button" id="exact-specimen">查看原始卡牌設計 ↗</button><small>肖像取自原設計樣張；馬名與移動數值來自已核對的七張基本卡。</small></div></div></dialog>
+  <dialog id="bet-dialog" class="bet-dialog" aria-labelledby="bet-title">
+    <button class="dialog-close" aria-label="關閉下注區">×</button>
+    <span class="eyebrow">PLAYER BETS</span><h2 id="bet-title"></h2><p id="bet-subtitle"></p>
+    <div id="bet-rows" class="bet-rows"></div>
+    <p id="bet-mode-note" class="bet-mode-note" aria-live="polite"></p>
+    <button id="reveal-bets" class="primary-button" aria-pressed="false">預覽結算揭注</button>
+    <nav id="bet-nav" class="bet-nav" aria-label="各匹賽馬的下注區"></nav>
+    <p class="bet-rule-note">進階暗注：每人持有 0、1、1、2，各押不同賽馬。0 也是一枚已下注標記。基本玩法使用 1、1、2。</p>
+    <a class="bet-rule-link" href="https://punchboardgame.pixnet.net/blog/posts/9573680628" target="_blank" rel="noreferrer">中文規則參考 ↗</a>
+  </dialog>
+  <dialog id="reference-dialog" class="reference-dialog"><header><span>原始概念設計 <small id="reference-theme">ROYAL CLUB</small></span><button class="dialog-close" aria-label="關閉參考圖">×</button></header><nav id="reference-tabs"><button data-sheet="board" class="selected">棋盤</button><button data-sheet="cards">卡牌正反面</button><button data-sheet="horses">七色賽馬</button><button data-sheet="dice">骰子</button></nav><img id="reference-image" src="../royal-turf-concepts/a-board.png" alt="原始皇家俱樂部設計"><p>原始設計方向與材質參考。互動樣稿展示布局、選單、擲骰及翻牌流程。</p></dialog>
+  <dialog id="exit-dialog" class="exit-dialog"><span class="eyebrow">LEAVE TABLE</span><h2>離開這張賽馬桌？</h2><p>這是設計預覽，不會影響任何實際遊戲。</p><div><button id="cancel-exit">留在棋盤</button><button class="primary-button" id="confirm-exit">離開預覽 ↗</button></div></dialog>
+  <div id="entry-overlay" class="entry-overlay" hidden><div><span class="brand-mark">♞</span><span class="eyebrow">ROYAL TURF</span><h1>下一場，等你入席。</h1><p>全屏棋盤 · 三種收藏級主題</p><button class="primary-button" id="enter-preview">返回設計預覽 ↗</button><small>本頁為互動設計樣稿。</small></div></div>
+  <script src="track.js"></script>
+  <script src="horses.js"></script>
+  <script src="prototype.js"></script>
+  <script src="payout.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+{
+  "ok": true,
+  "reports": [
+    {
+      "kind": "all-seven-and-repeat",
+      "initiallyUsed": 0,
+      "steps": [
+        {
+          "step": 1,
+          "horse": 0,
+          "result": "cap",
+          "distance": 15,
+          "positions": [
+            15,
+            -1,
+            -2,
+            -3,
+            -4,
+            -5,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 2,
+          "horse": 1,
+          "result": "carrot",
+          "distance": 11,
+          "positions": [
+            15,
+            10,
+            -2,
+            -3,
+            -4,
+            -5,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 3,
+          "horse": 2,
+          "result": "head",
+          "distance": 3,
+          "positions": [
+            15,
+            10,
+            1,
+            -3,
+            -4,
+            -5,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 4,
+          "horse": 4,
+          "result": "shoe",
+          "distance": 13,
+          "positions": [
+            15,
+            10,
+            1,
+            -3,
+            9,
+            -5,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 5,
+          "horse": 3,
+          "result": "head",
+          "distance": 4,
+          "positions": [
+            15,
+            10,
+            1,
+            1,
+            9,
+            -5,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 6,
+          "horse": 5,
+          "result": "head",
+          "distance": 6,
+          "positions": [
+            15,
+            10,
+            1,
+            1,
+            9,
+            1,
+            -6
+          ],
+          "cycle": "1"
+        },
+        {
+          "step": 7,
+          "horse": 6,
+          "result": "cap",
+          "distance": 5,
+          "positions": [
+            15,
+            10,
+            1,
+            1,
+            9,
+            1,
+            -1
+          ],
+          "cycle": "2"
+        },
+        {
+          "step": 8,
+          "horse": 0,
+          "result": "carrot",
+          "distance": 8,
+          "positions": [
+            23,
+            10,
+            1,
+            1,
+            9,
+            1,
+            -1
+          ],
+          "cycle": "2"
+        }
+      ],
+      "final": [
+        23,
+        10,
+        1,
+        1,
+        9,
+        1,
+        -1
+      ],
+      "reducedMotionSamples": 467,
+      "collisionHitTargets": [
+        {
+          "horse": 2,
+          "target": {
+            "x": 39.98515625,
+            "y": 41.015625
+          }
+        },
+        {
+          "horse": 3,
+          "target": {
+            "x": 39.98515625,
+            "y": 41.015625
+          }
+        },
+        {
+          "horse": 5,
+          "target": {
+            "x": 30.7578125,
+            "y": 41.015625
+          }
+        }
+      ]
+    }
+  ],
+  "issues": []
+}

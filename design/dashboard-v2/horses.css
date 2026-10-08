@@ -1,0 +1,14 @@
+.horse-pieces{position:absolute;inset:0;z-index:3;pointer-events:none}
+.horse-piece{position:absolute;display:block;width:6.5104167cqw;height:8.6805556cqw;padding:0;border:0;border-radius:0;background:none;box-shadow:none;transform:translate(-50%,calc(-1 * var(--base-anchor,83%)));pointer-events:auto;isolation:isolate;--piece-facing:1;--piece-hop:0cqw;--shadow-scale:1;--shadow-opacity:.35}
+.horse-piece:disabled{cursor:default;opacity:1;pointer-events:none}
+.piece-art{position:absolute;inset:0;display:block;background-image:var(--horse-atlas);background-repeat:no-repeat;background-size:400% 200%;background-position:var(--sprite-x) var(--sprite-y);transform:translateY(calc(-1 * var(--piece-hop))) scaleX(var(--piece-facing));transform-origin:50% var(--base-anchor,83%);pointer-events:none;filter:drop-shadow(0 .12cqw .1cqw #0003)}
+.piece-ground{position:absolute;left:22%;top:calc(var(--base-anchor,83%) - 6%);width:58%;height:12%;border-radius:50%;background:#090b09;opacity:var(--shadow-opacity);filter:blur(.19cqw);transform:scale(var(--shadow-scale));pointer-events:none}
+.horse-piece.selectable .piece-ground{background:var(--piece-color);box-shadow:0 0 0 .12cqw var(--metal),0 0 .6cqw .15cqw var(--piece-color);opacity:.75;filter:blur(.08cqw)}
+.horse-piece.selectable{cursor:pointer}
+.horse-piece.selectable:hover .piece-art,.horse-piece:focus-visible .piece-art{filter:drop-shadow(0 0 .25cqw #ffe5a9) drop-shadow(0 .2cqw .12cqw #0005)}
+.horse-piece:focus-visible{outline:0}
+.horse-piece:focus-visible .piece-ground{outline:.16cqw solid #fff0bf;outline-offset:.15cqw}
+.piece-number{position:absolute;left:68%;top:calc(var(--base-anchor,83%) - 12%);min-width:.95cqw;height:.95cqw;padding:0 .1cqw;display:grid;place-items:center;border:1px solid var(--metal);border-radius:50%;background:var(--floor);color:var(--ink);font:600 .65cqw Georgia,'Noto Serif TC',serif;pointer-events:none;box-shadow:0 .08cqw .12cqw #0003}
+.horse-piece.used .piece-number{opacity:.7}
+.horse-piece.moving .piece-number{background:var(--piece-color);color:#15252b}
+.horse-piece.moving{will-change:left,top}

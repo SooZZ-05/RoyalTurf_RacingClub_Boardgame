@@ -1,0 +1,273 @@
+{
+  "status": "partial-observation-not-a-playable-edition",
+  "article": "https://punchboardgame.pixnet.net/blog/posts/9573680628",
+  "board": {
+    "source": "https://pic.pimg.tw/punchboardgame/1692682299-1964584796-g_n.jpg",
+    "trackLength": 36,
+    "paceDistance": 18,
+    "finishBoundary": "Between display space 0/36 and space 1; forward finishDistance still requires the manual's lap convention",
+    "payout": [
+      [500, 350, 250, 200, 150],
+      [350, 250, 200, 150, 100],
+      [250, 200, 150, 100, 100]
+    ],
+    "lastPenalty": 100,
+    "note": "The photographed third-place / 3-unit cell is 150. The English RulesPal transcription rechecked on 8 October 2026 also lists 150."
+  },
+  "baseSource": "https://pic.pimg.tw/punchboardgame/1692682311-1895394351-g_n.jpg",
+  "baseProfiles": [
+    {
+      "horse": 0,
+      "names": {
+        "zh-Hant": "白雪公主",
+        "en": "Snow White"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 15,
+        "carrot": 8,
+        "shoe": 4
+      }
+    },
+    {
+      "horse": 1,
+      "names": {
+        "zh-Hant": "黑色傳說",
+        "en": "Black Story"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 5,
+        "carrot": 11,
+        "shoe": 8
+      }
+    },
+    {
+      "horse": 2,
+      "names": {
+        "zh-Hant": "赤紅地毯",
+        "en": "Red Carpet"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 10,
+        "carrot": 10,
+        "shoe": 1
+      }
+    },
+    {
+      "horse": 3,
+      "names": {
+        "zh-Hant": "湛藍海洋",
+        "en": "Blue Ocean"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 10,
+        "carrot": 7,
+        "shoe": 1
+      }
+    },
+    {
+      "horse": 4,
+      "names": {
+        "zh-Hant": "金黃猛虎",
+        "en": "Yellow Tiger"
+      },
+      "moves": {
+        "head": 5,
+        "cap": 1,
+        "carrot": 1,
+        "shoe": 13
+      }
+    },
+    {
+      "horse": 5,
+      "names": {
+        "zh-Hant": "綠貝雷帽",
+        "en": "Green Beret"
+      },
+      "moves": {
+        "head": 6,
+        "cap": 1,
+        "carrot": 10,
+        "shoe": 1
+      }
+    },
+    {
+      "horse": 6,
+      "names": {
+        "zh-Hant": "橘子汽水",
+        "en": "Orangena"
+      },
+      "moves": {
+        "head": 7,
+        "cap": 5,
+        "carrot": 3,
+        "shoe": 1
+      }
+    }
+  ],
+  "historicalSource": "https://pic.pimg.tw/punchboardgame/1692682299-3046323906-g_n.jpg",
+  "historicalProfiles": [
+    {
+      "names": {
+        "zh-Hant": "全副武裝",
+        "en": "Armed"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 4,
+        "carrot": 2,
+        "shoe": 12
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "新晉球手",
+        "en": "Busher"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 1,
+        "carrot": 16,
+        "shoe": 1
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "從中作梗",
+        "en": "Stymie"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 12,
+        "carrot": 4,
+        "shoe": 5
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "潛水鳥",
+        "en": "Devil Diver"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 14,
+        "carrot": 1,
+        "shoe": 9
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "法律顧問",
+        "en": "Zev"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 6,
+        "carrot": 6,
+        "shoe": 12
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "暮光之淚",
+        "en": "Twilight Tear"
+      },
+      "moves": {
+        "head": 2,
+        "cap": 9,
+        "carrot": 8,
+        "shoe": 7
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": null,
+        "en": "Alsab"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 6,
+        "carrot": 12,
+        "shoe": 9
+      }
+    },
+    {
+      "names": {
+        "zh-Hant": "衝上雲霄",
+        "en": "Top Flight"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 3,
+        "carrot": 12,
+        "shoe": 12
+      }
+    }
+  ],
+  "remaining": {
+    "baseProfiles": 14,
+    "historicalProfiles": 20,
+    "uncertainNames": ["Alsab Chinese transcription"],
+    "rules": [
+      "Full Chinese manual",
+      "Exact finish/lap convention",
+      "Pace eligibility",
+      "Crowded-field last-place ties",
+      "Settlement order",
+      "Later starter and deck handling"
+    ]
+  },
+  "sneReferenceProfiles": [
+    {
+      "horse": 0,
+      "names": {
+        "zh-Hant": "白雪公主",
+        "en": "Snow White"
+      },
+      "moves": {
+        "head": 1,
+        "cap": 8,
+        "carrot": 9,
+        "shoe": 10
+      },
+      "evidence": "https://handmanboardgame.com/wp-content/uploads/2017/05/%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%BF%E3%83%BC%E3%83%95-2.jpg",
+      "sourceEdition": "Group SNE/cosaic Japanese edition 2017",
+      "verification": "Four values directly readable in the single-card photograph; Chinese edition card front still needed for cross-check."
+    },
+    {
+      "horse": 2,
+      "names": {
+        "zh-Hant": "赤紅地毯",
+        "en": "Red Carpet"
+      },
+      "moves": {
+        "head": 3,
+        "cap": 1,
+        "carrot": 5,
+        "shoe": 15
+      },
+      "evidence": "https://cdn-ak.f.st-hatena.com/images/fotolife/l/liberteabi/20170226/20170226123812.jpg",
+      "sourceEdition": "Group SNE/cosaic Japanese edition 2017",
+      "verification": "Four values directly readable. The white and black cards in the same photo match both photographed Chinese profiles."
+    },
+    {
+      "horse": 3,
+      "names": {
+        "zh-Hant": "湛藍海洋",
+        "en": "Blue Ocean"
+      },
+      "moves": {
+        "head": 4,
+        "cap": 1,
+        "carrot": 13,
+        "shoe": 4
+      },
+      "evidence": "https://cdn-ak.f.st-hatena.com/images/fotolife/l/liberteabi/20170226/20170226123812.jpg",
+      "sourceEdition": "Group SNE/cosaic Japanese edition 2017",
+      "verification": "Four values directly readable. The white and black cards in the same photo match both photographed Chinese profiles."
+    }
+  ]
+}
